@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    padding: 0.5rem;
+    /* background: transparent; */
+}
+
+#container img{
+    height: 2.5rem;
+}
+
+#container ul{
+    display: flex;
+    gap: 2rem;
+}
+
+#container ul li{
+    color: white;
+}

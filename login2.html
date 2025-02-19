@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div id="sign">
+        <div id="sign2">
+          <h1>Login Form</h1>
+          <div id="Login-b">
+            <button onclick="change()" id="log-n"><a href="signup.html" >Signup</a></button>
+            <button onclick="change1()" id="sig-n" style="background-color: gray;">Login</button>
+          </div>
+          <div id="inp">
+            <p id="erruser1"></p>
+            <input type="text" placeholder="User Name" id="name1"/>
+            <!-- <input type="Email" placeholder="Email Address" /> -->
+            <p id="errpassword"></p>
+            <input type="Password" placeholder="Password" id="pass1"/>
+            <a href="#"><p id="p">Forget password?</p></a>
+            <!-- <input type="Password" placeholder="Confirm password" /> -->
+          </div>
+          <div id="btn">
+          <input type="submit" value="Login" onclick="return set2()"/>
+          <p>Not a member?<a href="signup.html"><span>Signup</span></a></p>
+        </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="first.js"></script>
+  </body>
+</html>

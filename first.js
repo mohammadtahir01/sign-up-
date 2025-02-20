@@ -103,3 +103,8 @@ let set2=()=>{
     return false;
 
 }
+
+let set3=()=>{
+  location.href="signup.html";
+  return false;
+}

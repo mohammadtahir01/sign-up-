@@ -3,10 +3,10 @@
     margin: 0;
 }
 body{
-    background-color: #aea3d9;
+    background-image: url("Lamborghinicar.jpg");
+    background-size: cover;
     display: flex;
-    /* justify-content: center; */
-    margin-top: 2rem;
+    margin-top: 4rem;
     position: absolute;
     left: 35%;
 }    
@@ -14,13 +14,15 @@ body{
 #sign{
     width: 50%;
     background-color: #bbb1e4;
-    /* padding: 1rem; */
+    background: transparent;
+    border: 2px solid gray;
     padding: 1.5rem 0rem 2rem 0rem;
     border-radius: 1rem;
 }
 h1{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 #Login-b{
@@ -32,7 +34,7 @@ h1{
 
 #Login-b a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 #Login-b button{
@@ -41,7 +43,8 @@ h1{
     font-weight: 600;
     border: none;
     border-radius: 10px;
-    background-color: #6f2da8;
+    background-color:#0740f1;;
+    color: white;
 }
 
 #inp{
@@ -49,6 +52,9 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+}
+#inp a{
+    color:#0740f1;
 }
 
 #inp input{
@@ -72,8 +78,13 @@ h1{
     outline: none;
     border-radius: 10px;
     border: none;
-    background-color: #6f2da8;
+    background-color: #0740f1;
+    color: white;
     font-size: 16px;
+}
+
+#btn span{
+    color: #0740f1;
 }
 
 /* ///-------------------------second CSS------------- */
@@ -81,9 +92,12 @@ h1{
 #p{
     margin-top: -14px;
     margin-left: 13rem;
+    color: #0740f1;
 }
 
 #btn p{
     font-size: 1.2rem;
     margin-top: 10px;
+    color: #fff;
+    
 }

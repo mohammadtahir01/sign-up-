@@ -1,19 +1,21 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: #aea3d9;
-    display: flex;
+    /* background-color: #aea3d9; */
+    /* display: flex; */
     /* justify-content: center; */
-    margin-top: 2rem;
-    position: absolute;
-    left: 35%;
+    /* margin-top: 2rem; */
+    /* position: absolute; */
+    /* left: 35%; */
+
     /* background-image: url('https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-sport-car-logo-vector-png-image_3416247.jpg'); */
 }    
 
 #sign{
-    width: 50%;
+    width: 500px;
     background-color: #bbb1e4;
     /* padding: 1rem; */
     padding: 1.5rem 0rem 2rem 0rem;
@@ -41,7 +43,8 @@ h1{
     font-weight: 600;
     border: none;
     border-radius: 10px;
-    background-color: #6f2da8;
+    background-color: #0740f1;
+    color: #fff;
 }
 
 #inp{
@@ -73,6 +76,7 @@ h1{
     outline: none;
     border-radius: 10px;
     border: none;
-    background-color: #6f2da8;
+    background-color:#0740f1;
+    color: #fff;
     font-size: 16px;
 }

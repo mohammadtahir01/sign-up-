@@ -1,18 +1,19 @@
-VANTA.BIRDS({
-    el: "#ani",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    backgroundColor: 0x3077c5,
-    color1: 0x8d0000,
-    color2: 0x3838ab,
-    birdSize: 1.50,
-    backgroundAlpha: 0.79
-  })
+
+VANTA.NET({
+  el: "#ani",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6262ab,
+  backgroundColor: 0x9080d,
+  points: 20.00,
+  maxDistance: 30.00,
+  spacing: 20.00
+})
 
 
 
@@ -104,7 +105,14 @@ let set2=()=>{
 
 }
 
-let set3=()=>{
-  location.href="signup.html";
-  return false;
+
+function home1(){
+  let text1 = document.querySelector("#list");
+  
+  if(!text1) return;
+  if(text1.style.display === "none" || text1.style.display === ""){
+    text1.style.display = "block"; 
+  }else{
+    text1.style.display = "none";
+  }
 }

@@ -5,9 +5,10 @@ let swiper = new Swiper(".card-box", {
     },
     navigation:{
       nextEl:".swiper-button-next",
-      prevEl:".swiper-buuton-prev"
+      prevEl:".swiper-button-prev"
     },
     autoplay:{
       delay:2000
     }
   });
+  

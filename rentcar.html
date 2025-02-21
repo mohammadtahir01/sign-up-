@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -17,62 +18,66 @@
 </style>
 <body>
     <nav>
-        <div id="container">
+
+        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
             <div>
                 <img src="/image/logo2.png" alt="">
             </div>
+           
             <ul>
-                <a href=""><li>HOME</li></a>
-                <a href=""><li>SERVICE</li></a>
-                <a href=""><li>CONTACT</li></a>
+                
+                <a href="#"><li onclick="home1()">CARS</li></a>
+                <a href="#"><li >HOME</li></a>
+                <a href="#"><li>SERVICE</li></a>
+                <a href="#"><li>CONTACT</li></a>
             </ul>
 
             <input type="text" placeholder="Search">
+            
         </div>
+        <div id="idx"><i class="fa-solid fa-bars"></i></div>
     </nav>
+    <div id="list" style="display: none;">
+        <ul>
+            <li>Rolls Royce</li>
+            <li>BMW</li>
+            <li>Audi</li>
+        </ul>
+    </div>
 
     <section>
           <!-- Swiper -->
   <div class="swiper mySwiper card-box">
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide">
-        <!-- <div id="img-box"> -->
-        <img src="/image/retalcar.jpg" alt="">
-        <!-- </div> -->
-    </div>
-
+        <div class="swiper-slide">
+            <img src="rolls13.webp" alt="">
+         </div>
 
       <div class="swiper-slide">
-        <!-- <div id="img-box2"> -->
-          <img src="/image/rentalcar2.jpg" alt="">
-        <!-- </div> -->
-    </div>
+        <img src="/image/rentalcar2.jpg" alt="">
+     </div>
 
-    <div class="swiper-slide">
-      <!-- <div id="img-box3"> -->
-        <img src="rolls1.jpg" alt="">
-      <!-- </div> -->
-  </div>
 
-  <div class="swiper-slide">
-    <!-- <div id="img-box4"> -->
-      <img src="rolls2.jpg" alt="">
-    <!-- </div> -->
-</div>
+      <div class="swiper-slide">
+          <img src="/image/retalcar.jpg" alt="">
+      </div>
+
+     <div class="swiper-slide">
+        <img src="car4.webp" alt="">
+     </div>
+
+     <div class="swiper-slide">
+      <img src="rolls15.avif" alt="">
+     </div>
 
 
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-
-      </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+        </div>
       
-
-      <!-- <div id="font">
-        <h1>For Rent $50 per Day</h1>
-    </div> -->
     </section>
 
     <div id="ret">

@@ -13,11 +13,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<style>
-
-</style>
 <body>
     <nav>
+        
+<!-- ------------------------------------container------------------------- -->
 
         <div id="container" data-aos="fade-right"  data-aos-duration="3000">
             <div>
@@ -37,6 +36,7 @@
         </div>
         <div id="idx"><i class="fa-solid fa-bars"></i></div>
     </nav>
+    <!-- ------------------------------------list------------------------- -->
     <div id="list" style="display: none;">
         <ul>
             <li>Rolls Royce</li>
@@ -46,7 +46,7 @@
     </div>
 
     <section>
-          <!-- Swiper -->
+          <!-- -------------Swiper ---------------->
   <div class="swiper mySwiper card-box">
     <div class="swiper-wrapper">
 
@@ -80,14 +80,50 @@
       
     </section>
 
+  <!-- ------------------------------------ret------------------------- -->
     <div id="ret">
       <h3>For Rent $50 per Day</h3>
       <h2>Reserved Now <br>& Get 50% off</h2>
       <!-- <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
       <a href="signup.html">RESERVE NOW!</a>
     </div>
-   
-    <div id="box4"></div>
+  <!-- ------------------------------------box-1------------------------- -->
+    <div id="box-1">
+        <div>Only For This Month  <span id="type">  </span> </div>
+        <!-- get 75% Discount -->
+    </div>
+   <!-- ------------------------------------box4------------------------- -->
+    <div id="box4">
+        <div id="box3">
+    
+        Add Location
+        <input type="text" placeholder="Enter Location">
+        <i class="fa-solid fa-angle-down"></i>
+
+        Enter Pickup date
+        <input type="date" placeholder="Enter Date">
+        
+        Enter Drope date
+        <input type="date" placeholder="Check In">
+        
+        Enter Cars
+        <input type="text" placeholder="Cars"  id="car3">
+        <i class="fa-solid fa-angle-down" onclick="car()"></i>
+        
+        <a href="#"><p>Find a Car</p></a>
+    </div>
+    </div>
+
+   <!--------------------------------------list--------------------------->
+<section>
+    <div id="list2" style="display: none;" >
+        <ul>
+            <li onclick="car4()">Rolls Royce</li>
+            <li>BMW</li>
+            <li>Audi</li>
+        </ul>
+    </div>
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
@@ -96,6 +132,7 @@
     <script>
       AOS.init();
     </script>
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="typed.js"></script>
 </body>
 </html>

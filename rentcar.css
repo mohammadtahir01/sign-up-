@@ -82,8 +82,8 @@
 }
 
 .swiper-slide{
-    /* -webkit-mask-image:linear-gradient(black, transparent);
-    mask-image: linear-gradient(black 0%, transparent 90%); */
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 70%, transparent 90%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,24 +135,110 @@
     background-color: #fff;
     color: black;
 }
+#box-1{
+    font-weight: bold;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: red;
+}
 
 
 #box4{
-    /* -webkit-mask-image:linear-gradient(black, transparent);
-    mask-image: linear-gradient(black 0%, transparent 90%); */
- /* background-color: black;
- height: 50px;
- position: relative;
- z-index: 5;
- bottom: 3rem  */
+ /* background-color: aqua; */
+ background-image: url("rolls3.webp");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
 }
+
+#box4 input{
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+
+#box3{
+    background-color: wheat;
+    background: transparent;
+    border: 2px solid gray;
+    width: 40%;
+    padding: 2rem;
+    display: grid;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: #ffc107;
+  
+}
+#box3 input{
+    display: grid;
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#box3 i{
+    position: relative;
+    right: -94%;
+    margin-top: -2.5rem;
+    color: black; 
+}
+#box3 p{
+    background-color: #f70707;
+    width: 30%;
+    color: wheat;
+    padding: 8px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 10px 
+}
+
+
 #idx{
     position: absolute;
     z-index: 5;
     display: none;
 }
 
+
+#list2{
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    width: 9%;
+    background-color: white;
+    position: absolute;
+    left: 60%;
+    bottom: -26.4rem;
+    /* z-index: 5; */
+}
+
+#list2 ul li{
+    list-style: none;
+}
+#list2 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
 /* telt.js// */
+
+
+/*-------swiper animation----------------------*/
+
+
 
 @media (max-width:450px) {
     body{

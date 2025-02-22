@@ -1,5 +1,5 @@
-var typed = new Typed('#element', {
-    strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+var typed = new Typed('#type', {
+    strings: ['get 75% Discount'],
     typeSpeed: 50,
     loop: true,
   });

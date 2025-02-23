@@ -3,20 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    /* background-color: #aea3d9; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* margin-top: 2rem; */
-    /* position: absolute; */
-    /* left: 35%; */
+#inp p{
+    margin-top: 0.5rem;
+    color: red;
+} 
 
-    /* background-image: url('https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-sport-car-logo-vector-png-image_3416247.jpg'); */
-}    
 
 #sign{
-    width: 500px;
+    width: 400px;
     background-color: #bbb1e4;
+    background: transparent;
+    border: 2px solid gray;
     /* padding: 1rem; */
     padding: 1.5rem 0rem 2rem 0rem;
     border-radius: 1rem;
@@ -24,6 +21,7 @@ body{
 h1{
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 #Login-b{
@@ -48,8 +46,8 @@ h1{
 }
 
 #inp{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
     justify-content: center;
     /* gap: 1rem; */
 }
@@ -57,7 +55,7 @@ h1{
 #inp input{
     padding: 8px 20px 8px 12px;
     margin-top: 1rem;
-    width: 72%; 
+    width: 100%; 
     outline: none;
     font-size: 1rem;
     border-radius: 11px;
@@ -79,4 +77,3 @@ h1{
     background-color:#0740f1;
     color: #fff;
     font-size: 16px;
-}

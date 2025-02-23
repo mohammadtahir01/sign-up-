@@ -18,28 +18,28 @@ let set=()=>{
         errname.innerHTML="Please fil the name";
         errname.style.color="red";
         return false
-    }
+      }
 
-    if(inpnumer.length !== 10 || inpnumer == ""){
+    else if(inpnumer.length !== 10 || inpnumer == ""){
         errnum.innerHTML="Please fil the number";
         errnum.style.color="red";
         return false
 
-    }
+      }
 
-    if(!(inpemail.includes('@')) && (inpemail.includes('.com'))){
+    else if(!(inpemail.includes('@')) && (inpemail.includes('.com'))){
         erremail.innerHTML="Please fil the email";
         erremail.style.color="red";
         return false
 
-    }
+      }
 
-    if(inppass.length >= 8){
+    else if(inppass.length <= 8){
         errpass.innerHTML="Please fil the password";
         errpass.style.color="red";
         return false
 
-    }
+      }
 
 
     localStorage.setItem("Name", inpname);
@@ -117,14 +117,63 @@ function car(){
 }
 // let show;
 function car4(){
-
   let getlist = document.querySelector("#car3")
-  // getlist.style.innerHTML= gh;
-  getlist.value="Rolls Roys";
+  getlist.value="Rolls Royce";
 
   let setval = document.querySelector("#list2");
   setval.style.display = "none";
+}
+
+function car5(){
+  let getlist = document.querySelector("#car3")
+  getlist.value="BMW";
+
+  let setval = document.querySelector("#list2");
+  setval.style.display = "none";
+}
+
+function car6(){
+  let getlist = document.querySelector("#car3")
+  getlist.value="Audi";
+
+  let setval = document.querySelector("#list2");
+  setval.style.display = "none";
+}
+
+function addlocation(){
+  let liststyle=document.querySelector("#list3");
+
+  if(!liststyle) return;
+
+  if(liststyle.style.display === "none" || liststyle.style.display === ""){
+    liststyle.style.display = "flex";
+  }else{
+    liststyle.style.display = "none";
+  }
+}
 
 
+function location1(){
+  let getlocation = document.querySelector("#add");
+  getlocation.value="Bhopal";
+ 
+  let listnone = document.querySelector("#list3");
+  listnone.style.display = "none";
+}
+
+function location12(){
+  let getlocation = document.querySelector("#add");
+  getlocation.value="Mp Nagar";
   
+  let listnone = document.querySelector("#list3");
+  listnone.style.display = "none";
+}
+
+
+function location13(){
+  let getlocation = document.querySelector("#add");
+  getlocation.value="Bihar";
+  
+  let listnone = document.querySelector("#list3");
+  listnone.style.display = "none";
 }

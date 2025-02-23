@@ -97,8 +97,8 @@
         <div id="box3">
     
         Add Location
-        <input type="text" placeholder="Enter Location">
-        <i class="fa-solid fa-angle-down"></i>
+        <input type="text" placeholder="Enter Location" id="add">
+        <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
 
         Enter Pickup date
         <input type="date" placeholder="Enter Date">
@@ -114,16 +114,202 @@
     </div>
     </div>
 
-   <!--------------------------------------list--------------------------->
+   <!--------------------------------------list3--------------------------->
+
+   <section>
+    <div id="list3" style="display: none;">
+        <ul>
+            <li onclick="location1()">Bhopal</li>
+            <li onclick="location12()">Mp Nagar</li>
+            <li onclick="location13()">Bihar</li>
+        </ul>
+    </div>
+</section>
+
+
+ <!--------------------------------------list2--------------------------->
+
 <section>
     <div id="list2" style="display: none;" >
         <ul>
             <li onclick="car4()">Rolls Royce</li>
-            <li>BMW</li>
-            <li>Audi</li>
+            <li onclick="car5()">BMW</li>
+            <li onclick="car6()">Audi</li>
         </ul>
     </div>
 </section>
+
+ <!--------------------------------------car-fact--------------------------->
+<section>
+    
+    <div id="car-fact" >
+        <p>See Our</p>
+        <h1>Latest Cars</h1>
+    </div>
+</section>
+
+ <!--------------------------------------car-factory--------------------------->
+
+ <section id="sec1">
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="newaudi.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="rolls.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="newfarari.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="newrolls.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="newaudi1.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="newbmw.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+ </section>
+
+<!-- ---------------------car-fact2------------------ -->
+ <section>
+    <div id="car-fact2" >
+        <h6>Categories</h6>
+        <h1>Rental Car Types</h1>
+    </div>
+</section>
+
+<!-- ---------------------luxury cars------------------ -->
+<section  id="sec2">
+<div id="luxury-car">
+    <div>
+    <h4>Luxury car</h4>
+</div>
+ <img src="Luxurycar.jpg" alt="">
+ <p id="car-p">01</p>
+</div>
+
+
+
+<div id="luxury-car">
+    <div>
+    <h4>Sports Car</h4>
+</div>
+ <img src="sportscar.jpg" alt="">
+ <p id="car-p">02</p>
+</div>
+
+
+
+<div id="luxury-car">
+    <div>
+    <h4>Suv</h4>
+</div>
+ <img src="suvcar.jpg" alt="">
+ <p id="car-p">03</p>
+</div>
+
+</section>
+
+<!-- ---------------------swiper------------------ -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>

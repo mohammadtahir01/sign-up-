@@ -74,6 +74,30 @@
     color: black;
 }
 
+#list3{
+    position: absolute;
+    top: 41.7rem;
+    background-color: wheat;
+    z-index: 5;
+    margin-left: 49rem;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+
+#list3 ul li {
+    list-style: none;
+    /* margin-top: 7px; */
+    padding: 2px;
+}
+
+#list3 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
 /* ///--------------------------swiper-slider----------------------- */
 
 .swiper{
@@ -218,10 +242,11 @@
     display: flex;
     justify-content: center;
     width: 9%;
-    background-color: white;
+    background-color: wheat;
     position: absolute;
     left: 60%;
     bottom: -26.4rem;
+    cursor: pointer;
     /* z-index: 5; */
 }
 
@@ -235,11 +260,165 @@
 }
 /* telt.js// */
 
+/*------------------car-fact----------------------*/
+#car-fact{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+}
+
+#car-fact p{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: red;
+}
+
+/*------------------car-fact2----------------------*/
+#car-fact2{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+}
+
+#car-fact2 h6{
+    margin-left: 4rem;
+    font-size: 16px;
+    color: red;
+}
+
+/*------------------car-fact1----------------------*/
+
+#sec1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#car-fact1{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 30%;
+    /* height: 350px; */
+    padding: 1rem;
+}
+
+#car-fact1 img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#rol{
+    display: grid;
+    padding: 5px 0px 10px 0px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#btn button{
+ padding: 8px 16px 8px 16px;
+ border: none;
+ border-radius: 10px;
+}
+
+/*-----------------luxury cars----------------------*/
+
+#sec2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#212529; 
+    padding: 1rem;
+}
+#luxury-car{
+    padding: 5px;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 1rem;
+    /* position: relative; */
+    overflow: hidden;
+    transition: 1s;
+}
+
+#luxury-car img{
+ width: 100%;
+ margin-top: -20px;
+ border-radius: 10px;
+}
+
+#luxury-car:hover{
+    transform: scale(1.05);
+    background-color: #ffc107;
+}
+#luxury-car h4{
+    position: relative;
+    margin-left: 1.5rem;
+    top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+
+#lux-car{
+    height: 86px;
+    width: 90px;
+    background-color: #212529;
+    color: white;
+    position: relative;
+    bottom: 5.3rem;
+    border-radius: 0 40px 0 0;
+}
+#lux-car div{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 1rem;
+    border-radius: 50%;
+    border: 2px solid #ffc107;
+}
+
+/* #lux-car p{
+    margin-top: 22px; */
+/* } */
+#car-p{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    border-radius: 0px 40px 0 0;
+    position:relative;
+    color: white;
+}
+
+
+
 
 /*-------swiper animation----------------------*/
 
-
-
+ 
 @media (max-width:450px) {
     body{
         width: 100%;

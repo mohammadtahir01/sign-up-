@@ -177,3 +177,24 @@ function location13(){
   let listnone = document.querySelector("#list3");
   listnone.style.display = "none";
 }
+
+
+function downb(){
+  let getdown = document.querySelector("#car-details");
+  if(getdown.style.display==="none" || getdown.style.display===""){
+  getdown.style.display="block";
+}else{
+  getdown.style.display="none";
+}
+
+}
+
+function downb1(){
+  let getdown1 = document.querySelector("#car-details1");
+
+  if(getdown1.style.display==="none" || getdown1.style.display===""){
+    getdown1.style.display="block";
+  }else{
+    getdown1.style.display="none";
+  }
+}

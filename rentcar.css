@@ -297,7 +297,7 @@
     justify-content: space-evenly;
     background-color: gray;
     flex-wrap: wrap;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 
 #car-fact1{
@@ -305,7 +305,7 @@
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    margin-top: 1rem;
+    margin-top: 5rem;
     width: 30%;
     /* height: 350px; */
     padding: 1rem;
@@ -337,23 +337,35 @@
  padding: 8px 16px 8px 16px;
  border: none;
  border-radius: 10px;
+ background: red;
+ color: white;
+}
+
+#btn button:hover{
+    background-color: #fff;
+    color: black;
 }
 
 /*-----------------luxury cars----------------------*/
 
 #sec2{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    gap: 2rem;
     background-color:#212529; 
-    padding: 1rem;
+    padding: 5rem;
+    grid-template-columns: repeat(5, 400px);
+    overflow-x: scroll;
+    align-items: center;
+    scrollbar-width: none;
 }
 #luxury-car{
+    width: 100%;
     padding: 5px;
     display: grid;
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    width: 30%;
+    /* width: 30%; */
     margin-top: 1rem;
     /* position: relative; */
     overflow: hidden;
@@ -413,6 +425,197 @@
     color: white;
 }
 
+#car-fact4{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+}
+
+#car-fact4 p{
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    color: red;
+}
+
+#car-sec{
+    width: 30%;
+    background-color:#222;
+    color: #fff;
+    padding: 4rem;
+    border-radius: 10px;
+}
+#car-sec p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+
+#car-sec2{
+    width: 30%;
+    background-color: #222;
+    color: #fff;
+    padding: 4rem;
+    border-radius: 10px;
+}
+#car-sec2 p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+#car-sec3{
+    width: 30%;
+    background-color: #222;
+    color: #fff;
+    padding: 4rem;
+    border-radius: 10px;
+}
+#car-sec3 p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+/*-------Footar----------------------*/
+#footar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    padding: 1rem;
+    color: white;
+}
+#footar p{
+    color: rgba(255, 255, 255, 0.8);;
+}
+#footar i{
+    margin-left: -2.2rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+#footar2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    padding: 1rem;
+    color: white;
+    gap: 5rem;
+}
+
+#footar2 img{
+    height: 25px;
+}
+
+#footar2 p{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+#whatsap{
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-top: 1rem;
+}
+
+#quick ul{
+    padding: 2px 82px 18px 74px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#quick h2{
+    margin-left: 3rem;
+}
+
+#quick ul li {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+/*-------------------Car-details----------------------*/
+
+#car-details{
+    position: absolute;
+    margin-top: 24rem;
+    left: 18.7rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+
+#car-details1{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 18.1rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details1 ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details1 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+
+#car-details2{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 18.1rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details2 ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details2 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+
+#car-details3{
+    position: absolute;
+    margin-top: 48rem;
+    margin-left: -7.8rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details3 ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details3 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
 
 
 

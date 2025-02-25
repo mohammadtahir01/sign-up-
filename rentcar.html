@@ -93,51 +93,35 @@
         <!-- get 75% Discount -->
     </div>
    <!-- ------------------------------------box4------------------------- -->
-    <div id="box4">
-        <div id="box3">
-    
-        Add Location
-        <input type="text" placeholder="Enter Location" id="add">
-        <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+    <div id="box5" >
+        <div id="box-5" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <div>
+            <img src="/image/logo2.png" alt="">
+          </div>
+            <h1>We Have More Than <span style="color: #f5b754;"> <br>A Car Rental Company</span></h1>
+            <p>Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu euismod nisl massa nutodio in the miss volume place urna lacinia eros nunta urna mauris vehicula rutrum in the miss on volume interdum.</p>
 
-        Enter Pickup date
-        <input type="date" placeholder="Enter Date">
-        
-        Enter Drope date
-        <input type="date" placeholder="Check In">
-        
-        Enter Cars
-        <input type="text" placeholder="Cars"  id="car3">
-        <i class="fa-solid fa-angle-down" onclick="car()"></i>
-        
-        <a href="#"><p>Find a Car</p></a>
+            <div>
+            <div id="box-div">
+                <p id="div" style="background-color:#222; color: #f5b754;  border-radius: 50%; height: 30px;
+    width: 30px; display: flex;justify-content: center;align-items: center;">1</p>
+                <p>Sports and Luxury Cars</p>
+            </div>
+            <div id="box-div2">
+                <p id="div2" style="height: 30px; width: 30px; border-radius: 50%; margin-top: 5px; background-color: #222; color: #f5b754; display: flex;justify-content: center;align-items: center;">2</p>
+                <p>Economy Cars</p>
+            </div>
+        </div>
+        <a href="#"><p id="button">Read More</p></a>
+        </div>
+
+        <div id="rentallad" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"><img src="rentalladki.jpg" alt=""></div>
     </div>
-    </div>
 
-   <!--------------------------------------list3--------------------------->
-
-   <section>
-    <div id="list3" style="display: none;">
-        <ul>
-            <li onclick="location1()">Bhopal</li>
-            <li onclick="location12()">Mp Nagar</li>
-            <li onclick="location13()">Bihar</li>
-        </ul>
-    </div>
-</section>
-
-
- <!--------------------------------------list2--------------------------->
-
-<section>
-    <div id="list2" style="display: none;" >
-        <ul>
-            <li onclick="car4()">Rolls Royce</li>
-            <li onclick="car5()">BMW</li>
-            <li onclick="car6()">Audi</li>
-        </ul>
-    </div>
-</section>
 
  <!--------------------------------------car-fact--------------------------->
 <section>
@@ -225,7 +209,7 @@
     </div>
     <div id="details">
         <h6>For More Details Click Here</h6>
-        <i class="fa-solid fa-angle-down"></i>
+        <i class="fa-solid fa-angle-down" onclick="downb2()"></i>
     </div>
       <div id="btn">
     <button>Book Now!</button>
@@ -235,13 +219,16 @@
 
     
 
-    <!-- <section>
-        <div id="car-details3" style="display: none;"><ul>
+    
+
+    <section>
+        <div id="car-details5" style="display:none;">
+            <ul>
             <li>Model : 2018</li>
             <li>Automatic</li>
             <li>200km</li>
         </ul></div>
-    </section> -->
+    </section>
 
     <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
         <div id="car-img">
@@ -253,7 +240,7 @@
     </div>
     <div id="details">
         <h6>For More Details Click Here</h6>
-        <i class="fa-solid fa-angle-down"></i>
+        <i class="fa-solid fa-angle-down" onclick="downb5()"></i>
     </div>
       <div id="btn">
     <button>Book Now!</button>
@@ -262,7 +249,14 @@
 
 
 
-
+    <section>
+        <div id="car-details4" style="display:none;">
+            <ul>
+            <li>Model : 2018</li>
+            <li>Automatic</li>
+            <li>200km</li>
+        </ul></div>
+    </section>
     
     <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
         <div id="car-img">
@@ -274,13 +268,22 @@
     </div>
     <div id="details">
         <h6>For More Details Click Here</h6>
-        <i class="fa-solid fa-angle-down"></i>
+        <i class="fa-solid fa-angle-down" onclick="downb4()"></i>
     </div>
       <div id="btn">
     <button>Book Now!</button>
 </div>
     </div>
 
+
+    <section>
+        <div id="car-details3" style="display:none;">
+            <ul>
+            <li>Model : 2018</li>
+            <li>Automatic</li>
+            <li>200km</li>
+        </ul></div>
+    </section>
 
 
     
@@ -294,7 +297,7 @@
     </div>
     <div id="details">
         <h6>For More Details Click Here</h6>
-        <i class="fa-solid fa-angle-down"></i>
+        <i class="fa-solid fa-angle-down" onclick="downb3()"></i>
     </div>
       <div id="btn">
     <button>Book Now!</button>
@@ -334,7 +337,7 @@
     <div>
     <h4>Sports Car</h4>
 </div>
- <img src="sportscar.jpg" alt="">
+ <img src="convertiblecar.jpg" alt="">
  <p id="car-p">02</p>
 </div>
 
@@ -343,7 +346,7 @@
     <div>
     <h4>Sports Car</h4>
 </div>
- <img src="sportscar.jpg" alt="">
+ <img src="sedancar.jpg" alt="">
  <p id="car-p">02</p>
 </div>
 
@@ -354,6 +357,14 @@
     <h4>Suv</h4>
 </div>
  <img src="suvcar.jpg" alt="">
+ <p id="car-p">03</p>
+</div>
+
+<div id="luxury-car">
+    <div>
+    <h4>Suv</h4>
+</div>
+ <img src="smallcar.jpg" alt="">
  <p id="car-p">03</p>
 </div>
 </section>
@@ -367,7 +378,7 @@
 <!-- ---------------------car-sec------------------ -->
 <section style="display: flex;
 justify-content: space-evenly;
-background-color: #1b1b1b; padding: 8rem;">
+background-color: #1b1b1b; padding: 8rem 4rem 8rem 4rem;">
     <div id="car-sec">
         <h2>Choose A Car</h2>
         <p>View our range of cars, find your perfect car for the coming days.</p>
@@ -385,6 +396,56 @@ background-color: #1b1b1b; padding: 8rem;">
         <p>Receive the key and enjoy your car. We treat all our cars with respect.</p>
     </div>
 </section>
+
+<section>
+    <div id="box4">
+        <div id="box3">
+    
+        Add Location
+        <input type="text" placeholder="Enter Location" id="add">
+        <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+
+        Enter Pickup date
+        <input type="date" placeholder="Enter Date">
+        
+        Enter Drope date
+        <input type="date" placeholder="Check In">
+        
+        Enter Cars
+        <input type="text" placeholder="Cars"  id="car3">
+        <i class="fa-solid fa-angle-down" onclick="car()"></i>
+        
+        <a href="#"><p>Find a Car</p></a>
+    </div>
+    </div>
+    </section>
+
+
+     <!--------------------------------------list3--------------------------->
+
+   <section>
+    <div id="list3" style="display: none;">
+        <ul>
+            <li onclick="location1()">Bhopal</li>
+            <li onclick="location12()">Mp Nagar</li>
+            <li onclick="location13()">Bihar</li>
+        </ul>
+    </div>
+</section>
+
+
+<!--------------------------------------list2--------------------------->
+
+<section>
+    <div id="list2" style="display: none;" >
+        <ul>
+            <li onclick="car4()">Rolls Royce</li>
+            <li onclick="car5()">BMW</li>
+            <li onclick="car6()">Audi</li>
+        </ul>
+    </div>
+</section>
+
 
 <!-- ---------------------footar------------------ -->
  <section>

@@ -76,10 +76,10 @@
 
 #list3{
     position: absolute;
-    top: 41.7rem;
+    margin-top:-27.8rem;
     background-color: wheat;
     z-index: 5;
-    margin-left: 49rem;
+    margin-left: 47rem;
     padding: 5px;
     border-radius: 0px 0px 5px 5px;
     cursor: pointer;
@@ -169,6 +169,74 @@
     color: red;
 }
 
+/*-------box5----------------------*/
+
+#box5{
+    width: 100%;
+    background-color:#1b1b1b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+}
+
+#box-5{
+    display: grid;
+    gap: 2rem;
+    width: 50%;
+    background-color: #1b1b1b;
+    color: rgba(255, 255, 255, 0.8);;
+}
+#box-5 img{
+    height: 20px;
+    margin-left: 3rem;
+    color: #ffc107;
+}
+#box-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#box-div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box-div2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+} 
+
+#button{
+    background-color: #f5b754;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 19px;
+    color: black;
+}
+#box5 a{
+    text-decoration: none;
+}
+
+
+
+#rentallad img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#rentallad img:hover{
+    transform: scale(1.05);
+}
 
 #box4{
  /* background-color: aqua; */
@@ -179,6 +247,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ padding: 5rem 0rem 5rem 0rem;
  
 }
 
@@ -244,8 +313,8 @@
     width: 9%;
     background-color: wheat;
     position: absolute;
-    left: 60%;
-    bottom: -26.4rem;
+    margin-left: 46rem;
+    margin-top: -12.2rem;
     cursor: pointer;
     /* z-index: 5; */
 }
@@ -294,10 +363,10 @@
 
 #sec1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     background-color: gray;
     flex-wrap: wrap;
-    padding: 5rem 0rem 5rem 0rem;
+    padding: 5rem 1rem 5rem 1rem;
 }
 
 #car-fact1{
@@ -305,7 +374,7 @@
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 30%;
     /* height: 350px; */
     padding: 1rem;
@@ -352,8 +421,8 @@
     display: grid;
     gap: 2rem;
     background-color:#212529; 
-    padding: 5rem;
-    grid-template-columns: repeat(5, 400px);
+    padding: 5rem 1rem 5rem 1rem;
+    grid-template-columns: repeat(6, 400px);
     overflow-x: scroll;
     align-items: center;
     scrollbar-width: none;
@@ -449,7 +518,7 @@
 #car-sec p{
     margin-left: 1rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.8);;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -540,7 +609,7 @@
 
 #car-details{
     position: absolute;
-    margin-top: 24rem;
+    margin-top: 29rem;
     left: 18.7rem;
     background-color: wheat;
     padding: 5px;
@@ -560,7 +629,7 @@
 
 #car-details1{
     position: absolute;
-    margin-top: 22rem;
+    margin-top: 24rem;
     margin-left: 18.1rem;
     background-color: wheat;
     padding: 5px;
@@ -580,7 +649,7 @@
 
 #car-details2{
     position: absolute;
-    margin-top: 22rem;
+    margin-top: 24rem;
     margin-left: 18.1rem;
     background-color: wheat;
     padding: 5px;
@@ -598,10 +667,11 @@
 }
 
 
+
 #car-details3{
     position: absolute;
-    margin-top: 48rem;
-    margin-left: -7.8rem;
+    margin-top: 24rem;
+    margin-left: 18.1rem;
     background-color: wheat;
     padding: 5px;
     z-index: 5;
@@ -616,6 +686,47 @@
     width: 100%;
     color: black;
 }
+
+
+#car-details4{
+    position: absolute;
+    margin-top: 24rem;
+    margin-left: 18.1rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details4 ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details4 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+
+#car-details5{
+    position: absolute;
+    margin-top: 52rem;
+    left: 18.1rem;
+    background-color: wheat;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 0px 0px 5px 5px 
+}
+#car-details5 ul li{
+    list-style: none;
+    padding: 2px;
+}
+#car-details5 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
 
 
 

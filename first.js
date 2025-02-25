@@ -198,3 +198,44 @@ function downb1(){
     getdown1.style.display="none";
   }
 }
+
+
+function downb2(){
+  let downbget = document.querySelector("#car-details2");
+
+  if(downbget.style.display === "none" || downbget.style.display === ""){
+    downbget.style.display = "block";
+  }else{
+    downbget.style.display = "none";
+  }
+}
+
+function downb3(){
+  let downb3get = document.querySelector("#car-details3");
+
+  if(downb3get.style.display === "none" || downb3get.style.display === ""){
+    downb3get.style.display = "block";
+  }else{
+    downb3get.style.display = "none";
+  }
+}
+
+function downb4(){
+  let downb4get = document.querySelector("#car-details4");
+
+  if(downb4get.style.display === "none" || downb4get.style.display === ""){
+    downb4get.style.display = "block";
+  }else{
+    downb4get.style.display = "none";
+  }
+}
+
+function downb5(){
+  let downb5get = document.querySelector("#car-details5");
+
+  if(downb5get.style.display === "none" || downb5get.style.display === ""){
+    downb5get.style.display = "block";
+  }else{
+    downb5get.style.display = "none";
+  }
+}

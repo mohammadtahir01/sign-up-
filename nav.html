@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    
+ 
+        
+        <!-- ------------------------------------container------------------------- -->
+        <nav>
+        
+                <div id="container" data-aos="fade-right"  data-aos-duration="3000">
+                    <div>
+                        <img src="/image/logo2.png" alt="">
+                    </div>
+                   
+                    <ul>
+                        
+                        <a href="#"><li onclick="home1()">CARS</li></a>
+                        <a href="rentcar.html"><li >HOME</li></a>
+                        <a href="#"><li>SERVICE</li></a>
+                        <a href="about.html"><li>CONTACT</li></a>
+                    </ul>
+        
+                    <input type="text" placeholder="Search">
+                    
+                </div>
+                <!-- <div id="idx"><i class="fa-solid fa-bars"></i></div> -->
+            </nav>
+
+
+             <!-- ------------------------------------list------------------------- -->
+    <div id="list" style="display: none;">
+        <ul>
+            <li>Rolls Royce</li>
+            <li>BMW</li>
+            <li>Audi</li>
+        </ul>
+    </div>
+
+
+ <!--------------------------------------box4--------------------------->
+
+            <section>
+                <div id="box4">
+                    <div id="box3">
+                
+                    Enter Name :-
+                    <input type="text" placeholder="Enter User Name">
+
+                    Add Location :-
+                    <input type="text" placeholder="Enter Location" id="add">
+                    <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+
+                    Enter Cars :-
+                    <input type="text" placeholder="Cars"  id="car3">
+                    <i class="fa-solid fa-angle-down" onclick="car()"></i>
+
+
+                    Enter Licence :-
+                    <input type="text" placeholder="Enter Your Licence Number">
+                    
+            
+                    Enter Pickup date :-
+                    <input type="date" placeholder="Enter Date">
+                    
+                    Enter Drope date :-
+                    <input type="date" placeholder="Check In">
+                    
+                   
+                    <a href="#"><p>Find a Car</p></a>
+                </div>
+                </div>
+                </section>
+            
+            
+                 <!--------------------------------------list3--------------------------->
+            
+               <section>
+                <div id="list3" style="display: none;">
+                    <ul>
+                        <li onclick="location1()">Bhopal</li>
+                        <li onclick="location12()">Mp Nagar</li>
+                        <li onclick="location13()">Bihar</li>
+                    </ul>
+                </div>
+            </section>
+            
+            
+            <!--------------------------------------list2--------------------------->
+            
+            <section>
+                <div id="list2" style="display: none;" >
+                    <ul>
+                        <li onclick="car4()">Rolls Royce</li>
+                        <li onclick="car5()">BMW</li>
+                        <li onclick="car6()">Audi</li>
+                    </ul>
+                </div>
+            </section>
+
+            <script src="first.js"></script>
+</body>
+</html>

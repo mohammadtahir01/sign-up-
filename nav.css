@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*//jo v box ke bahr jayega usko andr kr dega*/
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* overflow-x: hidden; */
+}
+
+/* ///--------------------------container----------------------- */
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    padding: 0.5rem;
+    /* position: absolute;
+    background: transparent;
+    z-index: 5; */
+    /* background: transparent; */
+}
+
+#container img{
+    height: 2.5rem;
+}
+#container i{
+    display: none;
+}
+
+#container ul{
+    display: flex;
+    gap: 2rem;
+}
+
+#container ul li{
+    color: white;
+    list-style: none;
+}
+#container ul a{
+    text-decoration: none;
+}
+
+#container input{
+    /* outline: none; */
+    outline-color: #f70707;
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* #idx{
+    position: absolute;
+    z-index: 5;
+    display: none;
+} */
+
+
+
+#list{
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 6px 4px 6px;
+    left: 35%;
+    top: 3rem;
+}
+#list ul li {
+    list-style: none;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+#list ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+#box3{
+    background-color: wheat;
+    background: transparent;
+    border: 2px solid gray;
+    width: 40%;
+    padding: 2rem;
+    display: grid;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: #ffc107;
+  
+}
+#box3 input{
+    display: grid;
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#box3 i{
+    position: relative;
+    right: -94%;
+    margin-top: -2.5rem;
+    color: black; 
+}
+#box3 p{
+    background-color: #f70707;
+    width: 30%;
+    color: wheat;
+    padding: 8px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 10px 
+}
+
+
+
+
+/* ///--------------------------box4----------------------- */
+#box4{
+    /* background-color: aqua; */
+    background-image: url("rolls3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+    
+}
+
+/* ///--------------------------List2----------------------- */
+#list2{
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    width: 9%;
+    background-color: wheat;
+    position: absolute;
+    margin-left: 46rem;
+    margin-top: -12.2rem;
+    cursor: pointer;
+    /* z-index: 5; */
+}
+
+#list2 ul li{
+    list-style: none;
+}
+#list2 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+/* ///--------------------------List3----------------------- */
+#list3{
+    position: absolute;
+    margin-top:-27.8rem;
+    background-color: wheat;
+    z-index: 5;
+    margin-left: 47rem;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+
+#list3 ul li {
+    list-style: none;
+    /* margin-top: 7px; */
+    padding: 2px;
+}
+
+#list3 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}

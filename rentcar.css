@@ -240,7 +240,7 @@
 
 #box4{
  /* background-color: aqua; */
- background-image: url("rolls3.webp");
+ background-image: url("/image/rolls3.webp");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -248,6 +248,7 @@
  justify-content: center;
  align-items: center;
  padding: 5rem 0rem 5rem 0rem;
+ overflow: hidden;
  
 }
 

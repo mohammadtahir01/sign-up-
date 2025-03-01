@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-image: url("Lamborghinicar.jpg");
+    background-image: url("/image/Lamborghinicar.jpg");
     background-size: cover;
     display: flex;
     margin-top: 4rem;

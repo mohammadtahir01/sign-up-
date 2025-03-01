@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="nav.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 <body>
     
  
         
-        <!-- ------------------------------------container------------------------- -->
+<!-- ------------------------------------container------------------------- -->
         <nav>
         
                 <div id="container" data-aos="fade-right"  data-aos-duration="3000">
@@ -34,10 +35,11 @@
                     
                 </div>
                 <!-- <div id="idx"><i class="fa-solid fa-bars"></i></div> -->
-            </nav>
+        </nav>
 
 
-             <!-- ------------------------------------list------------------------- -->
+<!-- ------------------------------------list------------------------- -->
+
     <div id="list" style="display: none;">
         <ul>
             <li>Rolls Royce</li>
@@ -50,35 +52,37 @@
  <!--------------------------------------box4--------------------------->
 
             <section>
+                <form>
                 <div id="box4">
                     <div id="box3">
                 
                     Enter Name :-
-                    <input type="text" placeholder="Enter User Name">
+                    <input type="text" placeholder="Enter User Name" id="name">
 
                     Add Location :-
-                    <input type="text" placeholder="Enter Location" id="add">
+                    <input type="text" placeholder="Enter Location" id="location">
                     <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
 
                     Enter Cars :-
-                    <input type="text" placeholder="Cars"  id="car3">
+                    <input type="text" placeholder="Cars"  id="car">
                     <i class="fa-solid fa-angle-down" onclick="car()"></i>
 
 
                     Enter Licence :-
-                    <input type="text" placeholder="Enter Your Licence Number">
+                    <input type="text" placeholder="Enter Your Licence Number" id="licence">
                     
             
                     Enter Pickup date :-
-                    <input type="date" placeholder="Enter Date">
+                    <input type="date" placeholder="Enter Date" id="date">
                     
                     Enter Drope date :-
-                    <input type="date" placeholder="Check In">
+                    <input type="date" placeholder="Check In" id="redate">
                     
                    
-                    <a href="#"><p>Find a Car</p></a>
+                   <input type="submit" value="submit" onclick=" return sendval()" id="submit" style="width: 50%;">
                 </div>
                 </div>
+            </form>
                 </section>
             
             
@@ -106,7 +110,9 @@
                     </ul>
                 </div>
             </section>
-
+           
+            <script src="crud.js"></script>
             <script src="first.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>

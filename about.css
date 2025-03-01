@@ -11,7 +11,7 @@
 
 /*-- ------------------------------------container------------------------- --*/
 
-#container{
+#container1{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,31 +24,31 @@
     /* background: transparent; */
 }
 
-#container img{
+#container1 img{
     height: 2.5rem;
 }
-#container i{
+#container1 i{
     display: none;
 }
 
-#container ul{
+#container1 ul{
     display: flex;
     gap: 2rem;
     font-weight: 600;
 }
-#container ul li:hover{
+#container1 ul li:hover{
     color: #f5b754;
 }
 
-#container ul li{
+#container1 ul li{
     color: white;
     list-style: none;
 }
-#container ul a{
+#container1 ul a{
     text-decoration: none;
 }
 
-#container input{
+#container1 input{
     /* outline: none; */
     outline-color: #f70707;
     border: none;
@@ -66,7 +66,7 @@
 
 /*-- ------------------------------------List------------------------- --*/
 
-#list{
+#listnum{
     position: absolute;
     z-index: 5;
     cursor: pointer;
@@ -76,27 +76,27 @@
     left: 35%;
     top: 3rem;
 }
-#list ul li {
+#listnum ul li {
     list-style: none;
     margin-top: 7px;
     padding: 2px;
 }
 
-#list ul li:hover{
+#listnum ul li:hover{
     background-color: #3593fa;
     width: 100%;
     color: black;
 }
 
-#image{
-    background-image: url("luxury2.jpg");
+#image2{
+    background-image: url("/image/luxury2.jpg");
     background-size: cover;
     height: 500px;
     background-position: bottom;
 }
 
 /*-- ------------------------------------About------------------------- --*/
-#about{
+#about1{
     position: absolute;
     top: 8rem;
     left: 5rem;
@@ -104,14 +104,14 @@
     color: #fff;
 }
 
-#about div{
+#about1 div{
     display: flex;
     gap: 1rem;
 }
 
 
 /*-- ------------------------------------Box5------------------------- --*/
-#box5{
+#box5-1{
     width: 100%;
     background-color:#1b1b1b;
     display: flex;
@@ -122,33 +122,33 @@
     top: 20rem;
 }
 
-#box-5{
+#box-51{
     display: grid;
     gap: 2rem;
     width: 50%;
     background-color: #1b1b1b;
     color: rgba(255, 255, 255, 0.8);;
 }
-#box-5 img{
+#box-51 img{
     height: 20px;
     color: #ffc107;
 }
 
 
-#box-div{
+#box-div1{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#box-div div{
+#box-div1 div{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-#box-div2{
+#box-div3{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -164,20 +164,20 @@
     border-radius: 19px;
     color: black;
 }
-#box5 a{
+#box5-1 a{
     text-decoration: none;
 }
 
 
 
-#rentallad img{
+#rentallad1 img{
     width: 100%;
     height: 350px;
     border-radius: 10px;
     transition: 1s;
 }
 
-#rentallad img:hover{
+#rentallad1 img:hover{
     transform: scale(1.05);
 }
 

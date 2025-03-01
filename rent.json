@@ -1,0 +1,40 @@
+{
+  "RentCar": [
+    {
+      "Name": "Tahir",
+      "Location": "Bengalore",
+      "Car": "BMW",
+      "Licence": "abc-1234",
+      "Date": "12-02-2025",
+      "ReturnDate": "14-02-2025",
+      "id": "f135"
+    },
+    {
+      "Name": "Mojammil",
+      "Location": "Hydrabad",
+      "Car": "Rolls Royce",
+      "Licence": "abc-1235",
+      "Date": "15-02-2025",
+      "ReturnDate": "17-02-2025",
+      "id": "3bee"
+    },
+    {
+      "id": "d4f9",
+      "Name": "cd",
+      "Location": "Roh",
+      "Car": "BMW",
+      "Licence": "abc676",
+      "Date": "2025-03-04",
+      "ReturnDate": "2025-03-05"
+    },
+    {
+      "id": "7a26",
+      "Name": "raja",
+      "Location": "bihar",
+      "Car": "Rolls-Royce ",
+      "Licence": "abc676",
+      "Date": "2025-03-04",
+      "ReturnDate": "2025-03-10"
+    }
+  ]
+}

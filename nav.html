@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="nav.css">
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     
@@ -53,8 +53,8 @@
 
             <section>
                 <form>
-                <div id="box4">
-                    <div id="box3">
+                <div id="box4" >
+                    <div id="box3" data-aos="zoom-in" data-aos-duration="3000">
                 
                     Enter Name :-
                     <input type="text" placeholder="Enter User Name" id="name">
@@ -114,5 +114,8 @@
             <script src="crud.js"></script>
             <script src="first.js"></script>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#table{
+    position:absolute;
+    left: 25%;
+    top: 25%;
+}
+
+thead{
+    background-color: black; 
+    color: white;
+}
+
+thead th{
+    padding: 1rem;
+}
+tbody tr{
+    padding: 1rem;
+}
+
+#formdata1{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+#formdata1 input{
+    display: grid;
+    /* position: relative; */
+    /* left: 25%; */
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+#formdata1 p{
+    /* position: relative;
+    left: 25%; */
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#submit1{
+    margin-left: 4rem;
+}

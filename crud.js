@@ -76,19 +76,50 @@ let up = async (id) =>{
     console.log(data);
 
     let formdata = `
-     Enter Name: <input type"text" id="upname" value="${data.Name}"> <br>
-     Enter Location: <input type"text" id="upname" value="${data.Location}"> <br>
-     Enter Car: <input type"text" id="upname" value="${data.Car}"> <br>
-     Enter Licence: <input type"text" id="upname" value="${data.Licence}"> <br>
-     Enter Data: <input type"text" id="upname" value="${data.Date}"> <br>
-     Enter ReturnDate: <input type"text" id="upname" value="${data.ReturnDate}"> <br>
+    <div id="nam">
 
-     <input type="submit" value="submit">
+    <p> Enter Name: <input type"text" id="upname" value="${data.Name}"></p>
+    <p> Enter Location: <input type"text" id="uplocation" value="${data.Location}"> </p>
+    <p> Enter Car: <input type"text" id="upcar" value="${data.Car}"></p>
+    <p>Enter Licence: <input type"text" id="uplicence" value="${data.Licence}"></p>
+    <p> Enter Data: <input type"text" id="update" value="${data.Date}"></p>
+    <p> Enter ReturnDate: <input type"text" id="uprtdate" value="${data.ReturnDate}"></p>
+
+    <p><input type="submit" value="submit"  id="submit1" onclick=" return finalupdate('${data.id}')"></p>
     
-
+  </div>
 
     `
     document.querySelector("#formdata1").innerHTML=formdata
+}
+
+let finalupdate=(id)=>{
+
+    let inpname = document.querySelector("#upname").value
+    let inplocation = document.querySelector("#uplocation").value
+    let inpcar = document.querySelector("#upcar").value
+    let inplicence = document.querySelector("#uplicence").value
+    let inpdate = document.querySelector("#update").value
+    let inpredate1 = document.querySelector("#uprtdate").value
+
+
+    let url =`http://localhost:3000/RentCar/${id}`
+
+    fetch(url,
+        {method:"PUT",
+            headers:{
+                "Content-type":"application",
+            },
+            body:JSON.stringify({
+                "Name":inpname,
+                "Location":inplocation,
+                "Car":inpcar,
+                "Licence":inplicence,
+                "Date":inpdate,
+                "ReturnDate":inpredate1
+            })
+        }
+    )
 }
 
 

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body onload="setdata()">
     
-    <table border="1" cellpadding="10px" colpadding="10px">
-        <thead>
+    <table border="1" id="table" data-aos="flip-up" data-aos-duration="3000">
+        <thead >
             <tr>
                 <th>Name</th>
                 <th>Location</th>
@@ -25,7 +27,11 @@
 
     <div id="formdata1"></div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="crud.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

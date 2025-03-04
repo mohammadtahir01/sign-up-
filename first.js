@@ -239,3 +239,8 @@ function downb5(){
     downb5get.style.display = "none";
   }
 }
+
+
+let nav=()=>{
+  location.href="nav.html"
+}

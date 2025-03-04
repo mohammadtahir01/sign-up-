@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*//jo v box ke bahr jayega usko andr kr dega*/
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* overflow-x: hidden; */
+}
+
+/*-- ------------------------------------container------------------------- --*/
+
+#container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    padding: 0.5rem;
+    position: absolute;
+    background: transparent;
+    /* z-index: 5; */
+    /* background: transparent; */
+}
+
+#container1 img{
+    height: 2.5rem;
+}
+#container1 i{
+    display: none;
+}
+
+#container1 ul{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+#container1 ul li:hover{
+    color: #f5b754;
+}
+
+#container1 ul li{
+    color: white;
+    list-style: none;
+}
+#container1 ul a{
+    text-decoration: none;
+}
+
+#container1 input{
+    /* outline: none; */
+    outline-color: #f70707;
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* #idx{
+    position: absolute;
+    z-index: 5;
+    display: none;
+} */
+
+/*-- ------------------------------------List------------------------- --*/
+
+#listnum{
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 6px 4px 6px;
+    left: 35%;
+    top: 3rem;
+}
+#listnum ul li {
+    list-style: none;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+#listnum ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+#image3{
+    background-image: url("/image/Ferrarinew2.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: bottom;
+}
+
+
+/*-- ------------------------------------About------------------------- --*/
+#about2{
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* #about1 div{
+    display: flex;
+    gap: 1rem;
+} */
+
+/*-- ------------------------------------box-cont------------------------- --*/
+
+#box-cont{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(6,300px);
+    overflow: scroll;
+    scrollbar-width: none;
+    position: relative; 
+    top: -6.9rem;
+    padding: 4rem 1rem 4rem 1rem;
+    background-color: #1b1b1b;
+    /* height: 300px; */
+    color: #999;
+}
+
+#box-cont div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #222;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 10px;
+
+}
+#box-cont p{
+    margin-top: 1rem;
+}
+
+
+/*-------Footar----------------------*/
+#footar1{
+    position: absolute;
+    width: 100%;
+    margin-top: -7rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    /* background-color: white; */
+    padding: 1rem;
+    color: white;
+}
+#footar1 p{
+    color: rgba(255, 255, 255, 0.8);;
+}
+#footar1 i{
+    margin-left: -2.2rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+#footar3{
+    position: absolute;
+    margin-top: -1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    padding: 1rem;
+    color: white;
+    gap: 5rem;
+}
+
+#footar3 img{
+    height: 25px;
+}
+
+#footar3 p{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+#whatsap{
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-top: 1rem;
+}
+
+#quick ul{
+    padding: 2px 82px 18px 74px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#quick h2{
+    margin-left: 3rem;
+}
+
+#quick ul li {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);;
+}

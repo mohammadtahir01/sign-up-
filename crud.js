@@ -10,7 +10,26 @@ let  setdata= async ()=>{
 
     console.log(data2)
 
+    searchh(data2)
+}  
+ let searchdata1= async()=>{
+
+    let getid =document.querySelector("#searchinp").value.toLowerCase()
+
+    let url='http://localhost:3000/RentCar'
+    let res = await fetch(url,{method:"GET"})
+    let data = await res.json()
+    console.log(data) 
+
+    let filterdata = data.filter((e)=>{
+        return e.Name.toLowerCase().includes(getid) || e.Car.toLowerCase().includes(getid)
+    })
+    searchh(filterdata)
+}   
+
+let searchh=(data2)=>{
     let show = document.querySelector("#show1")
+    show.innerHTML=""
 
     data2.map((e)=>{
         show.innerHTML +=`

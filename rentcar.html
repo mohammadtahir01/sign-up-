@@ -34,7 +34,17 @@
             <input type="text" placeholder="Search">
             
         </div>
-        <div id="idx"><i class="fa-solid fa-bars"></i></div>
+        <div id="idx">
+            <i class="fa-solid fa-bars" onclick="homefun()"></i>
+            <ul style="display: none;" id="id1">
+                <a href="#"><li>HOME</li></a>
+                <a href="service.html"><li>SERVICE</li></a>
+                <a href="about.html"><li>CONTAT</li></a>
+            </ul>
+            <div>
+           
+        </div>
+        </div>
     </nav>
     <!-- ------------------------------------list------------------------- -->
     <div id="list" style="display: none;">
@@ -100,7 +110,7 @@
           <div>
             <img src="/image/logo2.png" alt="">
           </div>
-            <h1>We Have More Than <span style="color: #f5b754;"> <br>A Car Rental Company</span></h1>
+            <h1>We Have More Than <span style="color: #f5b754;"><br><a></a>A Car Rental Company</a> </span></h1>
             <p>Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu euismod nisl massa nutodio in the miss volume place urna lacinia eros nunta urna mauris vehicula rutrum in the miss on volume interdum.</p>
 
             <div>
@@ -378,9 +388,7 @@ data-aos-duration="1500">
     </div>
 </section>
 <!-- ---------------------car-sec------------------ -->
-<section style="display: flex;
-justify-content: space-evenly;
-background-color: #1b1b1b; padding: 8rem 4rem 8rem 4rem;" >
+<section id="style1" style="" >
     <div id="car-sec" data-aos="flip-left"  data-aos-duration="1500">
         <h2>Choose A Car</h2>
         <p>View our range of cars, find your perfect car for the coming days.</p>

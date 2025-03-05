@@ -40,12 +40,33 @@ let searchh=(data2)=>{
         <td>${e.Licence}</td>
         <td>${e.Date}</td>
         <td>${e.ReturnDate}</td>
-        <td onclick = "del('${e.id}')">Cancel</td>
+        <td onclick = "finaldata('${e.id}')">Cancel</td>
         <td onclick="up('${e.id}')">Update</td>
         </tr>
         `
     })
 
+}
+
+let finaldata = (id)=>{
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            del(id)
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+        }
+      });
 }
 
 let del=(id)=>{

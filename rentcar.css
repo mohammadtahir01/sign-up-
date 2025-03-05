@@ -523,6 +523,12 @@
 }
 
 
+#style1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1b1b1b;
+    padding: 8rem 4rem 8rem 4rem;
+}
 #car-sec2{
     width: 30%;
     background-color: #222;
@@ -751,12 +757,43 @@
         height: 1.5rem;
         margin-left: -11rem;
     }
-    #idx{
+    #idx {
         display: flex;
+        /* justify-self: center;
+        align-items: center; */
+        margin-left: 15rem;
+        font-size: 1.5rem;
+    }
+    #idx ul{
+    margin-left: -11.5rem;
+    margin-top: 1rem;
+    background-color: aqua;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    }
+    #idx ul li{
+        list-style: none;
+        padding: 5px;
+    }
+    #idx ul a li:hover{
+        background-color: black;
+    }
+    #idx ul a{
+        text-decoration: none;
+    }
+    #idx i{
+        /* display: flex;
         font-size: 2rem;
-        margin-left: 24rem;
-        margin-top: 1rem;
+        /* margin-left: 24rem;
+        margin-top: 1rem; */
         color: #fff;
+        margin-left: 9rem;
+        position: relative;
+        top: 1rem;
+        /* bottom: 3rem; */
+        display: flex;
     }
 
     #ret{
@@ -774,14 +811,97 @@
         font-size: 10px;
     }
 
+    #box5{
+        display: grid;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    #box-5 a{
+        margin-left: -2rem;
+        position: relative;
+        left: 1rem;
+    }
+
     #box-5 img{
         margin-left: 7rem;
         margin-top: 1rem;
+       
     }
     #box-5 h1{
         font-size: 1.3rem;
         position: relative;
-        left: 6rem;
+        left: 5rem;
     }
+    #box-5 p{
+        display: inline;
+        position: relative;
+        left: 4rem;
+    }
+
+    #rentallad img{
+        height: 275px;
+        width: 75%;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    #sce1{
+        display: grid;
+    
+    }
+    #car-fact1{
+        width:100%;
+    }
+
+    #sec2{
+        gap: 0px;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+   #luxury-car{
+    width: 90%;
+   }
+
+   #style1{
+    display: grid;
+    gap: 2rem;
+   }
+
+   #car-sec{
+    width: 100%;
+   }
+   #car-sec2{
+    width: 100%;
+   }
+   #car-sec3{
+    width: 100%;
+   }
+
+   #box3{
+    width: 80%;
+   }
+   #box3 input{
+    padding: 8px;
+   }
+
+   #box3 p{
+    display: inline;
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+   }
+
+   #footar{
+    padding: 5px;
+    display: flex;
+    font-size: 8px;
+   }
+
+   #footar2{
+    gap: 0px;
+    padding: 0px;
+    font-size: 8px;
+   }
+
+
 
 }

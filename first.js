@@ -244,3 +244,13 @@ function downb5(){
 let nav=()=>{
   location.href="nav.html"
 }
+
+let homefun=()=>{
+  let setfun = document.querySelector("#id1")
+
+  if(setfun.style.display==="none" || setfun.style.display===" "){
+    setfun.style.display="block"
+  }else{
+    setfun.style.display="none"
+  }
+}

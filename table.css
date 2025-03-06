@@ -3,10 +3,29 @@
     margin: 0;
 }
 
+body{
+    background-image: url("/image/newaudi.jpg");
+    background-size: cover
+}
+
+#sear{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+#sear input{
+    outline: none;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+}
 #table{
     position:absolute;
-    left: 25%;
-    top: 25%;
+    left: 4%;
+    top: 15%;
 }
 
 thead{
@@ -23,8 +42,8 @@ tbody tr{
 
 #formdata1{
     position: absolute;
-    left: 40%;
-    top: 50%;
+    left: 63%;
+    top: 7%;
     border-radius: 10px;
     background-color: aqua;
     width: 25%;
@@ -32,6 +51,8 @@ tbody tr{
     justify-content: center;
     align-items: center;
     /* padding: 1rem; */
+    background: transparent;
+    border: 1px solid black;
 }
 
 #formdata1 input{

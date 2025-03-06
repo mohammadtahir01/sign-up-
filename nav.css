@@ -201,3 +201,75 @@
     width: 100%;
     color: black;
 }
+#idx{
+    display: none;
+}
+
+@media (max-width:450px) {
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #container ul{
+        display: none;
+    }
+
+    #container input{
+        display: none;
+    }
+    #container img{
+        height: 1.5rem;
+        margin-left: -11rem;
+    }
+    #idx {
+        position: absolute;
+        display: flex;
+        /* justify-self: center;
+        align-items: center; */
+        margin-left: 15rem;
+        font-size: 1.5rem;
+    }
+    #idx ul{
+    margin-left: -11.5rem;
+    margin-top: 1rem;
+    background-color: aqua;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    }
+    #idx ul li{
+        list-style: none;
+        padding: 5px;
+    }
+    #idx ul a li:hover{
+        background-color: black;
+    }
+    #idx ul a{
+        text-decoration: none;
+    }
+    #idx i{
+        /* display: flex;
+        font-size: 2rem;
+        /* margin-left: 24rem;
+        margin-top: 1rem; */
+        color: #fff;
+        margin-left: 9rem;
+        position: relative;
+        top: 1rem;
+        /* bottom: 3rem; */
+        display: flex;
+    }
+
+    #box3{
+        width: 75%;
+        margin-top: -1rem;
+    }
+    #box3 input{
+        padding: 10px;
+    }
+    #submit{
+        margin-left: 4rem;
+    }
+}

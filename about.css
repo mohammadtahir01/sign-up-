@@ -327,7 +327,7 @@
     #idx ul{
     margin-left: -11.5rem;
     margin-top: 1rem;
-    background-color: aqua;
+    background-color: white;
     display: grid;
     gap: 1rem;
     padding: 1rem;
@@ -336,9 +336,12 @@
     #idx ul li{
         list-style: none;
         padding: 5px;
+        color: black;
     }
     #idx ul a li:hover{
         background-color: black;
+        color: white;
+        border-radius: 5px;
     }
     #idx ul a{
         text-decoration: none;

@@ -202,6 +202,9 @@
     padding: 10px;
     color: rgba(255, 255, 255, 0.8);;
 }
+#idx1 i{
+    display: none;
+}
 
 @media (max-width:450px){
     #container ul{
@@ -215,33 +218,38 @@
         height: 1.5rem;
         margin-left: -11rem;
     }
-    #idx {
+    #idx1 {
+        position: absolute;
+        z-index: 5;
         display: flex;
         /* justify-self: center;
         align-items: center; */
         margin-left: 15rem;
         font-size: 1.5rem;
     }
-    #idx ul{
+    #idx1 ul{
     margin-left: -11.5rem;
     margin-top: 1rem;
-    background-color: aqua;
+    background-color: white;
     display: grid;
     gap: 1rem;
     padding: 1rem;
     border-radius: 10px;
     }
-    #idx ul li{
+    #idx1 ul li{
         list-style: none;
         padding: 5px;
+        color: black;
     }
-    #idx ul a li:hover{
+    #idx1 ul a li:hover{
         background-color: black;
+        color: white;
+        border-radius: 5px;
     }
-    #idx ul a{
+    #idx1 ul a{
         text-decoration: none;
     }
-    #idx i{
+    #idx1 i{
         color: #fff;
         margin-left: 5rem;
         position: relative;

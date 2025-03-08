@@ -81,7 +81,7 @@ let set2=()=>{
 
    if(inpuser == localname && inppassword == localpass){
   
-     location.href="rentcar.html";
+     location.href="index.html";
      return false;
 
    }else{
@@ -242,7 +242,17 @@ function downb5(){
 
 
 let nav=()=>{
+
+  if(localStorage.getItem("Name")){
   location.href="nav.html"
+  }
+  else{
+    alert("please login / Or signup")
+
+  }
+}
+let logout=()=>{
+  localStorage.clear();
 }
 
 let homefun=()=>{

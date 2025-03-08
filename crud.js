@@ -10,7 +10,7 @@ let  setdata= async ()=>{
 
     console.log(data2)
 
-    searchh(data2)
+    paginationdata(data2)
 }  
  let searchdata1= async()=>{
 
@@ -24,14 +24,27 @@ let  setdata= async ()=>{
     let filterdata = data.filter((e)=>{
         return e.Name.toLowerCase().includes(getid) || e.Car.toLowerCase().includes(getid)
     })
-    searchh(filterdata)
-}   
+    paginationdata(filterdata)
+} 
 
-let searchh=(data2)=>{
+
+let paginationdata=(data)=>{
+    $('#pagin').pagination({
+        dataSource: data,
+        pageSize: 5,
+        showPageNumbers: true,
+        showNavigator: true,
+        callback: function(data, pagination) {
+            searchh(data)
+        }
+    })
+}
+
+let searchh=(data)=>{
     let show = document.querySelector("#show1")
     show.innerHTML=""
 
-    data2.map((e)=>{
+    data.map((e)=>{
         show.innerHTML +=`
         <tr>
         <td>${e.Name}</td>

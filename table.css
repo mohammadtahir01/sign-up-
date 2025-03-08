@@ -26,6 +26,8 @@ body{
     position:absolute;
     left: 4%;
     top: 15%;
+    background-color: gray;
+    color: white;
 }
 
 thead{
@@ -75,4 +77,48 @@ tbody tr{
 
 #submit1{
     margin-left: 4rem;
+}
+
+
+#pagin{
+    margin-top: 14%;
+    margin-left: 4%;
+}
+@media(max-width:450px){
+    body{
+        height: 100vh;
+        background-image: url("/image/rolls2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    thead th{
+        padding: 10px;
+        font-size: 10px;
+    }
+    #table{
+        position:absolute;
+        left: 0%;
+        top: 15%;
+        width: 400px !important;
+    }
+    #formdata1{
+        position: absolute;
+        left: 3%;
+        top: 40%;
+        border-radius: 10px;
+        background-color: aqua;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 1rem; */
+        background: transparent;
+        border: 1px solid black;
+    }
+
+    #sear{
+        background-color: skyblue;
+        padding: 10px;
+        margin-left: 0;
+    }
 }

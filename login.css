@@ -9,6 +9,7 @@ body{
     margin-top: 4rem;
     position: absolute;
     left: 35%;
+    background-repeat: no-repeat;
 }    
 
 #sign{
@@ -100,4 +101,18 @@ h1{
     margin-top: 10px;
     color: #fff;
     
+}
+@media(max-width:450px){
+    #sign{
+        width: 100%;
+        position: relative;
+        left: -5rem;
+   }
+   body{
+    background-size: auto;
+   }
+
+   #p{
+     margin-left: 8rem;
+   }
 }

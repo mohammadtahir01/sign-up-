@@ -65,9 +65,10 @@
     justify-content: center;
     align-items: center;
     margin-left: 8rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #0740f1;
     color: white;
+    margin-left: 6rem;
 
 }
 
@@ -98,12 +99,12 @@
     background-color: wheat;
     background: transparent;
     border: 2px solid gray;
-    width: 40%;
+    width: 30%;
     padding: 1rem;
     display: grid;
     gap: 0.3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    /* margin-bottom: 1rem; */
     border-radius: 10px;
     color: #ffc107;
   
@@ -111,17 +112,18 @@
 #box3 input{
     display: grid;
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     outline: none;
     border: none;
     border-radius: 10px;
     font-size: 1rem;
+    
 }
 
 #box3 i{
     position: relative;
-    right: -94%;
-    margin-top: -2.5rem;
+    right: -93%;
+    margin-top: -2.1rem;
     color: black; 
 }
 #box3 p{
@@ -163,7 +165,7 @@
     background-color: wheat;
     position: absolute;
     margin-left: 46rem;
-    margin-top: -12.2rem;
+    margin-top: -23.2rem;
     cursor: pointer;
     /* z-index: 5; */
 }

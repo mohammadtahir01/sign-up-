@@ -91,10 +91,12 @@ h1{
 
 @media(max-width:450px){
     #height1{
-        height: 62vh;
+        height: 100vh;
     }
     #sign{
-        width: 310px;
+        width: 275px;
+        position: relative;
+        top: -11rem;
     }
     #idx {
         display: flex;

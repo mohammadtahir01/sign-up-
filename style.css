@@ -757,6 +757,9 @@
         height: 1.5rem;
         margin-left: -11rem;
     }
+    #log{
+        display: flex;
+    }
     #idx {
         display: flex;
         /* justify-self: center;

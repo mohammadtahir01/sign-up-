@@ -247,7 +247,13 @@ let nav=()=>{
   location.href="nav.html"
   }
   else{
-    alert("please login / Or signup")
+    // alert("please login / Or signup")
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: `Please Login/SignUp `,
+      footer: 'Something went wrong!'
+    });
 
   }
 }

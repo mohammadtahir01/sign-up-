@@ -258,14 +258,24 @@ let nav=()=>{
   }
 }
 let logout=()=>{
+  let getid1 = document.querySelector("#id1")
+  if(getid1.style.display==="none" || getid1.style.display===" "){
+    getid1.style.display="block"
+    
+  }else{
+    getid1.style.display="none"
+  }
   localStorage.clear();
+ 
 }
 
 let homefun=()=>{
+  
   let setfun = document.querySelector("#id1")
 
   if(setfun.style.display==="none" || setfun.style.display===" "){
     setfun.style.display="block"
+    
   }else{
     setfun.style.display="none"
   }

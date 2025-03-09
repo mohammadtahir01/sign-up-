@@ -159,19 +159,21 @@
 /* ///--------------------------List2----------------------- */
 #list2{
     border-radius: 0px 0px 5px 5px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    width: 9%;
+    /* width: 9%; */
     background-color: wheat;
     position: absolute;
     margin-left: 46rem;
     margin-top: -23.2rem;
+    padding: 5px;
     cursor: pointer;
     /* z-index: 5; */
 }
 
 #list2 ul li{
     list-style: none;
+    padding: 2px;
 }
 #list2 ul li:hover{
     background-color: #3593fa;
@@ -268,10 +270,15 @@
         /* bottom: 3rem; */
         display: flex;
     }
+    #box4{
+        height: 100vh;
+    }
 
     #box3{
         width: 75%;
-        margin-top: -1rem;
+        top: -3rem;
+        position: relative;
+    top: -4rem;
     }
     #box3 input{
         padding: 10px;
@@ -283,5 +290,29 @@
     }
     #submit{
         margin-left: 4rem;
+    }
+
+    #list2{
+        border-radius: 0px 0px 5px 5px;
+        /* display: flex; */
+        justify-content: center;
+        /* width: 9%; */
+        background-color: wheat;
+        position: absolute;
+        margin-left: 17rem;
+        margin-top: -23.2rem;
+        cursor: pointer;
+        /* z-index: 5; */
+    }
+
+    #list3{
+        position: absolute;
+        margin-top:-27.8rem;
+        background-color: wheat;
+        z-index: 5;
+        margin-left: 17rem;
+        padding: 5px;
+        border-radius: 0px 0px 5px 5px;
+        cursor: pointer;
     }
 }

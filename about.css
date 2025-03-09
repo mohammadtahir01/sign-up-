@@ -402,12 +402,15 @@
         margin-top: 21rem 
     }
     #footar{
-        padding: 0;
+        padding: 33px 5px 33px 5px;
         font-size: 10px;
+    }
+    #footar i{
+        display: none;
     }
     #footar2{
         position: relative;
-        bottom: 3.4rem;
+        /* bottom: 3.4rem; */
         display: grid;
     }
     #footar2 ul{

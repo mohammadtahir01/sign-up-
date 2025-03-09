@@ -6,7 +6,6 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    /* overflow-x: hidden; */
 }
 
 #container{
@@ -19,7 +18,6 @@
     position: absolute;
     background: transparent;
     z-index: 5;
-    /* background: transparent; */
 }
 
 #container img{
@@ -43,7 +41,6 @@
 }
 
 #container input{
-    /* outline: none; */
     outline-color: #f70707;
     border: none;
     padding: 7px;
@@ -88,7 +85,6 @@
 
 #list3 ul li {
     list-style: none;
-    /* margin-top: 7px; */
     padding: 2px;
 }
 
@@ -113,8 +109,6 @@
     align-items: center;
 }
 .swiper-slide img {
-    /* -webkit-mask-image:linear-gradient(black, transparent);
-    mask-image: linear-gradient(black 0%, transparent 90%); */
     display: block;
     width: 100%;
     height: 100%;
@@ -239,7 +233,6 @@
 }
 
 #box4{
- /* background-color: aqua; */
  background-image: url("/image/rolls3.webp");
  background-position: center;
  background-repeat: no-repeat;
@@ -250,11 +243,6 @@
  padding: 5rem 0rem 5rem 0rem;
  overflow: hidden;
  
-}
-
-#box4 input{
-    /* display: flex;
-    flex-wrap: nowrap; */
 }
 
 #box3{
@@ -287,6 +275,9 @@
     margin-top: -2.5rem;
     color: black; 
 }
+#box3 a{
+    text-decoration: none;
+}
 #box3 p{
     background-color: #f70707;
     width: 30%;
@@ -309,15 +300,12 @@
 
 #list2{
     border-radius: 0px 0px 5px 5px;
-    display: flex;
     justify-content: center;
-    width: 9%;
     background-color: wheat;
     position: absolute;
     margin-left: 46rem;
     margin-top: -12.2rem;
     cursor: pointer;
-    /* z-index: 5; */
 }
 
 #list2 ul li{
@@ -377,7 +365,6 @@
     border-radius: 10px;
     margin-top: 3rem;
     width: 30%;
-    /* height: 350px; */
     padding: 1rem;
 }
 
@@ -435,9 +422,7 @@
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    /* width: 30%; */
     margin-top: 1rem;
-    /* position: relative; */
     overflow: hidden;
     transition: 1s;
 }
@@ -479,9 +464,6 @@
     border: 2px solid #ffc107;
 }
 
-/* #lux-car p{
-    margin-top: 22px; */
-/* } */
 #car-p{
     background-color: black;
     width: 80px;
@@ -760,10 +742,8 @@
     #log{
         display: flex;
     }
-    #idx {
+    #idx{
         display: flex;
-        /* justify-self: center;
-        align-items: center; */
         margin-left: 15rem;
         font-size: 1.5rem;
     }
@@ -789,16 +769,11 @@
     #idx ul a{
         text-decoration: none;
     }
-    #idx i{
-        /* display: flex;
-        font-size: 2rem;
-        /* margin-left: 24rem;
-        margin-top: 1rem; */
+    #idx i{ 
         color: #fff;
         margin-left: 5rem;
         position: relative;
         top: 1rem;
-        /* bottom: 3rem; */
         display: flex;
     }
 
@@ -815,6 +790,25 @@
     }
     #ret a{
         font-size: 10px;
+    }
+    #list2{
+        border-radius: 0px 0px 5px 5px;
+        justify-content: center;
+        background-color: wheat;
+        position: absolute;
+        margin-left: 17.2rem;
+        margin-top: -10rem;
+        cursor: pointer;
+    }
+    #list3{
+        position: absolute;
+        margin-top:-22.7rem;
+        background-color: wheat;
+        z-index: 5;
+        margin-left: 17rem;
+        padding: 5px;
+        border-radius: 0px 0px 5px 5px;
+        cursor: pointer;
     }
 
     #box5{
@@ -895,19 +889,28 @@
     top: 1rem;
     left: 5rem;
    }
-
-   #footar{
-    padding: 0;
-    font-size: 10px;
-  }
-   #footar2{
+   #box3 i{
     position: relative;
-    bottom: 3.4rem;
+    right: -92%;
+    margin-top: -2rem;
+    color: black; 
+}
+
+#footar{
+    padding: 33px 5px 33px 5px;
+    font-size: 10px;
+}
+#footar i{
+    display: none;
+}
+#footar2{
+    position: relative;
     display: grid;
-   }
-   #footar2 ul{
+     margin-top: -1px;
+}
+#footar2 ul{
     display: grid;
-   }
+}
 
 
 

@@ -264,13 +264,17 @@
     }
 
     #footar1{
-        padding: 0;
+        padding: 33px 5px 33px 5px;
         font-size: 10px;
-      }
+    }
+    #footar1 i{
+        display: none;
+    }
     #footar3{
         position: relative;
-        bottom: 3.4rem;
+        /* bottom: 3.4rem; */
         display: grid;
+        padding: 0px 20px 0px 20px 
     }
 
 

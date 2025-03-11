@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*//jo v box ke bahr jayega usko andr kr dega*/
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* overflow-x: hidden; */
+}
+
+/* ///--------------------------container----------------------- */
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #1b1b1b;
+    padding: 0.5rem;
+    /* position: absolute; */
+    /* background: transparent;  */
+    /* z-index: 5;  */
+    /* background: transparent; */
+}
+
+#container img{
+    height: 2.5rem;
+}
+#container i{
+    display: none;
+}
+
+#container ul{
+    display: flex;
+    gap: 2rem;
+}
+
+#container ul li{
+    color: white;
+    list-style: none;
+}
+#container ul a{
+    text-decoration: none;
+}
+
+#container input{
+    /* outline: none; */
+    outline-color: #f70707;
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#section1{
+    /* position: relative; */
+    background-color: rgb(62, 62, 174);
+    /* height: 140px; */
+    width: 100%;
+    color: aqua;
+    top: 20%;
+}
+
+#sec{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#sec input{
+    font-size: 1rem;
+    padding: 6px 0px 0px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #36367e;
+    color: #fff;
+    outline-color: #fff;
+    /* border:1px solid white ; */
+    
+}
+#sec div{
+    display: grid;
+    background-color: #36367e;
+    padding: 5px;
+}
+
+

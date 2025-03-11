@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav2.css">
+</head>
+<body>
+
+    <!-- ------------------------------------container------------------------- -->
+    <nav>
+        
+        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
+            <div>
+                <img src="/image/logo2.png" alt="">
+            </div>
+           
+            <ul>
+                
+                <a href="#"><li onclick="home1()">CARS</li></a>
+                <a href="rentcar.html"><li >HOME</li></a>
+                <a href="#"><li>SERVICE</li></a>
+                <a href="about.html"><li>CONTACT</li></a>
+            </ul>
+
+            <input type="text" placeholder="Search">
+            
+        </div>
+        <!-- <div id="idx"><i class="fa-solid fa-bars"></i></div> -->
+        <div id="idx">
+            <i class="fa-solid fa-bars" onclick="homefun()"></i>
+            <ul style="display: none;" id="id1">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="service.html"><li>SERVICE</li></a>
+                <a href="about.html"><li>CONTAT</li></a>
+            </ul>
+            <!-- <div>
+           
+        </div> -->
+        </div>
+</nav>
+
+<section>
+    <form>
+    <div id="section1">
+        <div id="sec">
+            <div>
+                Type Trip:-
+                <input type="text" placeholder="Where have to go">
+            </div>
+            <div>
+                From:- 
+                <input type="text" placeholder="Bhopal">
+            </div>
+            <div>
+                To:-
+                <input type="text" placeholder="Kolkata">
+            </div>
+            <div>
+                Pick Date:-  
+                <input type="date" placeholder="">
+            </div>
+            <div>
+                Re-Date:- 
+                <input type="date">
+            </div>
+
+            <input type="button" value="Search"> 
+          
+        </div>
+    </div>
+</form>
+</section>
+
+    
+</body>
+</html>

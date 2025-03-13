@@ -39,7 +39,7 @@ t1.from("#ret a",{
 
 
 gsap.to("#gif img",{
-    x:800,
+    x:700,
     duration:5,
     delay:1,
     repeat:-1

@@ -6,7 +6,6 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    /* overflow-x: hidden; */
 }
 
 /* ///--------------------------container----------------------- */
@@ -16,12 +15,8 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: #1b1b1b;
+    background-color: #16a7ef;
     padding: 0.5rem;
-    /* position: absolute; */
-    /* background: transparent;  */
-    /* z-index: 5;  */
-    /* background: transparent; */
 }
 
 #container img{
@@ -45,7 +40,6 @@
 }
 
 #container input{
-    /* outline: none; */
     outline-color: #f70707;
     border: none;
     padding: 7px;
@@ -56,9 +50,7 @@
 
 
 #section1{
-    /* position: relative; */
-    background-color: rgb(62, 62, 174);
-    /* height: 140px; */
+    background-color: rgb(46 63 200);
     width: 100%;
     color: aqua;
     top: 20%;
@@ -80,13 +72,104 @@
     background-color: #36367e;
     color: #fff;
     outline-color: #fff;
-    /* border:1px solid white ; */
-    
 }
+
 #sec div{
     display: grid;
     background-color: #36367e;
     padding: 5px;
+}
+#id2{
+    position: relative;
+}
+
+#cont-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12.5rem;
+    /* height: 300px; */
+    width: 100%;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#cont-box #h1{
+ display: flex;
+ gap: 2rem;
+ /* height: 30px; */
+ margin-top: 1rem;
+ padding: 1rem;
+ margin-left: 10rem;
+
+}
+
+#h4{
+    padding: 1rem;
+}
+#h4 p{
+    color: #4a4a4a;
+}
+
+#h1 h1{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#car-sec{
+    /* height: 200px;
+    display: flex; */
+    border: 1px solid gray;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#car-sec2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+#car1{
+    display: flex;
+    align-items: center;
+}
+#car1 img{
+    height: 50px;
+}
+
+#Dzire{
+    margin-left: 1rem;
+}
+
+#Dzire span{
+    display: flex;
+    gap: 10px;
+}
+
+#book{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* left: -3rem; */
+    padding: 0px 0px 10px 0px;
+}
+#book span{
+    display: flex;
+    align-items: center;
+}
+
+#book button{
+    position: relative;
+    left: 9rem;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 10px 25px 10px 25px;
+    font-size: 1rem;
 }
 
 

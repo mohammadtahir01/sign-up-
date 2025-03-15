@@ -172,4 +172,21 @@
     font-size: 1rem;
 }
 
+#car-booking{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#car-booking2{
+    display: flex;
+  
+}
+
+#car-booking div{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 

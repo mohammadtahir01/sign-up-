@@ -15,7 +15,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: #16a7ef;
+    background-color: #0b43d8;
     padding: 0.5rem;
 }
 
@@ -123,7 +123,7 @@
     border: 1px solid gray;
     margin-top: 1rem;
     border-radius: 10px;
-    width: 100%;
+    width: 95%;
     background-color: #f2f2f2;
 }
 #car-sec2{
@@ -167,7 +167,7 @@
     left: 9rem;
     border: none;
     border-radius: 20px;
-    background-color: blue;
+    background-color: #0046ff;
     padding: 10px 25px 10px 25px;
     font-size: 1rem;
 }
@@ -175,7 +175,7 @@
 #car-booking{
     width: 100%;
     /* background-color: black; */
-    background-color: #f2f2f2;
+    background-color: #fff;
     color: white;
     display: flex;
     justify-content: center;
@@ -185,6 +185,7 @@
 #car-2{
    width: 70%;
    /* background-color: aqua; */
+   background-color: #f2f2f2;
    color: black;
 }
 
@@ -197,8 +198,17 @@
 
 #vip{
     display: flex;
-    gap: 1rem;
-    font-size: 1.3rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+#vip h5{
+    padding: 5px;
+}
+#h5{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 #car-input{
@@ -238,12 +248,72 @@
 #setbutton1{
     display: flex;
     justify-content: center;
+    
 }
 #setbutton{
     padding: 10px 64px;
     font-size: 1.2rem;
     border-radius: 20px;
     border: none;
+    background-color: #000;
+    color: #fff;
 }
+
+#footar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    padding: 1rem;
+    color: white;
+}
+#footar p{
+    color: rgba(255, 255, 255, 0.8);;
+}
+#footar i{
+    margin-left: -2.2rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+#footar2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    padding: 1rem;
+    color: white;
+    gap: 5rem;
+}
+
+#footar2 img{
+    height: 25px;
+}
+
+#footar2 p{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+#whatsap{
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-top: 1rem;
+}
+
+#quick ul{
+    padding: 2px 82px 18px 74px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#quick h2{
+    margin-left: 3rem;
+}
+
+#quick ul li {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
 
 

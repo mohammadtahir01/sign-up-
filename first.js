@@ -244,7 +244,7 @@ function downb5(){
 let nav=()=>{
 
   if(localStorage.getItem("Name")){
-  location.href="nav.html"
+  location.href="nav2.html"
   }
   else{
     // alert("please login / Or signup")

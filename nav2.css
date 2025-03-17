@@ -174,19 +174,76 @@
 
 #car-booking{
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #f2f2f2;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#car-2{
+   width: 70%;
+   /* background-color: aqua; */
+   color: black;
 }
 
 #car-booking2{
+    /* background-color: #fff; */
     display: flex;
-  
+    gap: 1rem;
+    /* flex-wrap: wrap; */
 }
 
-#car-booking div{
-    background-color: #fff;
+#vip{
     display: flex;
-    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+#car-input{
+    font-size: 1.2rem;
+    padding: 10px 0px 0px 10px;
+}
+#car-input2{
+    font-size: 1.2rem;
+    padding: 10px 0px 0px 0px;
+}
+
+#car-input input{
+    /* gap: 1rem; */
+    font-size: 1.2rem;
+    /* display: flex; */
+    display: grid;
+    flex-wrap: nowrap;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px 5px 5px 10px; 
+}
+
+#car-input2 input{
+    font-size: 1.2rem;
+    /* display: flex; */
+    display: grid;
+    flex-wrap: nowrap;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+}
+
+#setbutton1{
+    display: flex;
+    justify-content: center;
+}
+#setbutton{
+    padding: 10px 64px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
 }
 
 

@@ -332,6 +332,11 @@
     #container input{
         display: none;
     }
+    #container img{
+        position: relative;
+        right: 2rem;
+    }
+   
 
     #idx {
         position: absolute;
@@ -365,7 +370,7 @@
     }
     #idx i{
         color: #fff;
-        margin-left: 8rem;
+        margin-left: 6rem;
         position: relative;
         top: -2.6rem;
         display: flex;

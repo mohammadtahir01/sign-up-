@@ -89,10 +89,11 @@ let del=(id)=>{
 }
 
 let  sendval=()=>{
+    
 
    let inpname = document.querySelector("#name").value
-   let inplocation = document.querySelector("#location").value
-   let inpcar = document.querySelector("#car").value
+   let inplocation = document.querySelector("#add").value
+   let inpcar = document.querySelector("#car3").value
    let inplicence = document.querySelector("#licence").value
    let inpdate = document.querySelector("#date").value
    let inpredate1 = document.querySelector("#redate").value
@@ -114,9 +115,9 @@ let  sendval=()=>{
     })
    
 })
+    location.href="indextable.html";
+    return false;
 
-location.href="indextable.html"
-return false
 
 }
 

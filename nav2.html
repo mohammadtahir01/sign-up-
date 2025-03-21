@@ -252,6 +252,7 @@
 
 
 <section>
+    <form action="#">
     <div id="car-booking">
         <div id="car-2">
         <h1 style="margin-left: 1rem;">Online Booking Car</h1>
@@ -264,20 +265,26 @@
     <!-- <div> -->
         <div id="car-input">
             Enter Name:-
-           <input type="text" placeholder="User Name">
+            <p id="nameerr"></p>
+           <input type="text" placeholder="User Name" id="name1">
            Date:-
-           <input type="date" placeholder="Date">
+           <p id="date1err"></p>
+           <input type="date" placeholder="Date" id="date1">
            Car:-
-           <input type="text" placeholder="Car-Type" id="">
+           <p id="carterr"></p>
+           <input type="text" placeholder="Car-Type" id="car-type1">
 
         </div>
         <div id="car-input2">
             Conatct:-
-            <input type="text" placeholder="Conatct - No">
+            <p id="conterr"></p>
+            <input type="text" placeholder="Conatct - No" id="contact1">
             Return-Date:-
-            <input type="date" placeholder="Return-Date">
+            <p id="redateeerr"></p>
+            <input type="date" placeholder="Return-Date" id="redate">
             Licence:-
-            <input type="text" placeholder="Licence" id="">
+            <p id="licenceerr"></p>
+            <input type="text" placeholder="Licence" id="licence1">
         </div>
     <!-- </div> -->
 
@@ -288,12 +295,13 @@
         </div>
     </div>
     <div id="setbutton1">
-    <input type="submit" value="submit" id="setbutton">
+    <input type="submit" value="submit" id="setbutton" onclick=" return senddate()">
 </div>
     </div>
 
    
     </div>
+</form>
 </section>
 
 
@@ -349,6 +357,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
 <script src="vanta2.js"></script>
+<script src="crud.js"></script>
+<!-- <script src="first.js"></script> -->
+ <script src="nav2.js"></script>
 <script src="first.js"></script>
     
 </body>

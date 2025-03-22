@@ -52,7 +52,7 @@ gsap.from("#car-fact p",{
     scroller:"body",
     // markers:true,
     start:"top 60%",
-    end:"top 50%",
+    end:"top 40%",
     scrub:3
 }
 })
@@ -65,7 +65,7 @@ gsap.from("#car-fact h1",{
         scroller:"body",
         // markers:true,
         start:"top 60%",
-        end:"top 50%",
+        end:"top 40%",
         scrub:3
     }
    })
@@ -82,7 +82,7 @@ gsap.from("#car-fact2 h6",{
         scroller:"body",
         // markers:true,
         start:"top 60%",
-        end:"top 50%",
+        end:"top 40%",
         scrub:3
     }
 })  
@@ -93,9 +93,9 @@ gsap.from("#car-fact2 h1",{
     scrollTrigger:{
         trigger:"#car-fact2 h1",
         scroller:"body",
-        // markers:true,
-        start:"top 70%",
-        end:"top 50%",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%",
         scrub:3
     }
    }) 
@@ -111,8 +111,8 @@ gsap.from("#car-fact4 p",{
         trigger:"#car-fact4 p",
         scroller:"body",
         // markers:true,
-        start:"top 70%",
-        end:"top 50%",
+        start:"top 60%",
+        end:"top 40%",
         scrub:3
     }
 })  
@@ -124,8 +124,8 @@ gsap.from("#car-fact4 h1",{
         trigger:"#car-fact4 h1",
         scroller:"body",
         // markers:true,
-        start:"top 70%",
-        end:"top 50%",
+        start:"top 60%",
+        end:"top 40%",
         scrub:3
     }
    }) 

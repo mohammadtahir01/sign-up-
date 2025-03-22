@@ -51,7 +51,7 @@ gsap.from("#car-fact p",{
     trigger:"#car-fact p",
     scroller:"body",
     // markers:true,
-    start:"top 60%",
+    start:"top 40%",
     end:"top 40%",
     scrub:3
 }
@@ -64,7 +64,7 @@ gsap.from("#car-fact h1",{
         trigger:"#car-fact h1",
         scroller:"body",
         // markers:true,
-        start:"top 60%",
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }
@@ -81,7 +81,7 @@ gsap.from("#car-fact2 h6",{
         trigger:"#car-fact2 h6",
         scroller:"body",
         // markers:true,
-        start:"top 60%",
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }
@@ -93,8 +93,8 @@ gsap.from("#car-fact2 h1",{
     scrollTrigger:{
         trigger:"#car-fact2 h1",
         scroller:"body",
-        markers:true,
-        start:"top 60%",
+        // markers:true,
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }
@@ -110,7 +110,7 @@ gsap.from("#car-fact4 p",{
     scrollTrigger:{
         trigger:"#car-fact4 p",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 40%",
         end:"top 40%",
         scrub:3
@@ -123,7 +123,7 @@ gsap.from("#car-fact4 h1",{
     scrollTrigger:{
         trigger:"#car-fact4 h1",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 40%",
         end:"top 40%",
         scrub:3
@@ -182,7 +182,7 @@ gsap.from("#car-sec",{
         trigger:"#car-sec",
         scroller:"body",
         // markers:true,
-        start:"top 30%",
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }
@@ -196,7 +196,7 @@ gsap.from("#car-sec2",{
         trigger:"#car-sec2",
         scroller:"body",
         // markers:true,
-        start:"top 30%",
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }
@@ -209,7 +209,7 @@ gsap.from("#car-sec3",{
         trigger:"#car-sec3",
         scroller:"body",
         // markers:true,
-        start:"top 30%",
+        start:"top 40%",
         end:"top 40%",
         scrub:3
     }

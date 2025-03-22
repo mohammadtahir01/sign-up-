@@ -110,7 +110,7 @@ gsap.from("#car-fact4 p",{
     scrollTrigger:{
         trigger:"#car-fact4 p",
         scroller:"body",
-        // markers:true,
+        markers:true,
         start:"top 40%",
         end:"top 40%",
         scrub:3
@@ -123,7 +123,7 @@ gsap.from("#car-fact4 h1",{
     scrollTrigger:{
         trigger:"#car-fact4 h1",
         scroller:"body",
-        // markers:true,
+        markers:true,
         start:"top 40%",
         end:"top 40%",
         scrub:3

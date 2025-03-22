@@ -94,7 +94,7 @@ gsap.from("#car-fact2 h1",{
         trigger:"#car-fact2 h1",
         scroller:"body",
         // markers:true,
-        start:"top 60%",
+        start:"top 70%",
         end:"top 50%",
         scrub:3
     }
@@ -111,7 +111,7 @@ gsap.from("#car-fact4 p",{
         trigger:"#car-fact4 p",
         scroller:"body",
         // markers:true,
-        start:"top 60%",
+        start:"top 70%",
         end:"top 50%",
         scrub:3
     }
@@ -124,7 +124,7 @@ gsap.from("#car-fact4 h1",{
         trigger:"#car-fact4 h1",
         scroller:"body",
         // markers:true,
-        start:"top 60%",
+        start:"top 70%",
         end:"top 50%",
         scrub:3
     }

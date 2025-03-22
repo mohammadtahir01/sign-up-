@@ -88,15 +88,6 @@ let del=(id)=>{
     fetch(url,{method:"DELETE"})
 }
 
-// let  sendval=()=>{
-    
-
-//    let inpname = document.querySelector("#name").value
-//    let inplocation = document.querySelector("#add").value
-//    let inpcar = document.querySelector("#car3").value
-//    let inplicence = document.querySelector("#licence").value
-//    let inpdate = document.querySelector("#date").value
-//    let inpredate1 = document.querySelector("#redate").value
 
 let  senddate=()=>{
     
@@ -117,13 +108,6 @@ let  senddate=()=>{
         "Content-type":"application/json",
     },
     body:JSON.stringify({
-        // "Name":inpname,
-        // "Location": inplocation,
-        // "Car": inpcar,
-        // "Licence":inplicence,
-        // "Date":inpdate,
-        // "ReturnDate":inpredate1
-
         "Name":inpname,
         "Date":inpdate,
         "Car": inpcar,

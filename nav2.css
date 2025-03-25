@@ -10,7 +10,7 @@
 
 /* ///--------------------------container----------------------- */
 
-#container{
+#container1{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,27 +19,27 @@
     padding: 0.5rem;
 }
 
-#container img{
+#container1 img{
     height: 2.5rem;
 }
-#container i{
+#container1 i{
     display: none;
 }
 
-#container ul{
+#container1 ul{
     display: flex;
     gap: 2rem;
 }
 
-#container ul li{
+#container1 ul li{
     color: white;
     list-style: none;
 }
-#container ul a{
+#container1 ul a{
     text-decoration: none;
 }
 
-#container input{
+#container1 input{
     outline-color: #f70707;
     border: none;
     padding: 7px;
@@ -326,13 +326,13 @@
 
 @media (max-width:450px){
 
-    #container ul{
+    #container1 ul{
         display: none;
     }
-    #container input{
+    #container1 input{
         display: none;
     }
-    #container img{
+    #container1 img{
         position: relative;
         right: 2rem;
     }

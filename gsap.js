@@ -225,3 +225,44 @@ gsap.to("#gif img",{
     delay:1,
     repeat:-1
 })
+
+//--------------------------------nav2------------------------------
+
+var t1 = gsap.timeline()
+t1.from("#sec #trip1",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+t1.from("#sec .from12",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+t1.from("#sec .from13",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+t1.from("#sec .from14",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+t1.from("#sec .from15",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+t1.from("#sec input",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.5
+}) 
+

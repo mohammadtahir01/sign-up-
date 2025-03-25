@@ -6,18 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="nav2.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- ------------------------------------container------------------------- -->
     <nav>
         
-        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
-            <div>
+        <div id="container1">
+            <!-- data-aos="zoom-out" data-aos-duration="3000" -->
+            <div data-aos="fade-right"  data-aos-duration="3000">
                 <img src="/image/logo2.png" alt="">
             </div>
            
-            <ul>
+            <ul data-aos="fade-right"  data-aos-duration="3000">
                 
                 <a href="#"><li onclick="home1()">CARS</li></a>
                 <a href="index.html"><li >HOME</li></a>
@@ -25,7 +27,7 @@
                 <a href="about.html"><li>CONTACT</li></a>
             </ul>
 
-            <input type="text" placeholder="Search">
+            <input type="text" placeholder="Search" data-aos="fade-right"  data-aos-duration="3000">
             
         </div>
         <!-- <div id="idx"><i class="fa-solid fa-bars"></i></div> -->
@@ -44,24 +46,24 @@
     <div id="section1">
         <div id="sec">
             <div id="trip" style="display: contents;">
-            <div style="padding: 5px;">
+            <div style="padding: 5px;" id="trip1">
                 Type Trip:-
                 <input type="text" placeholder="Where have to go">
             </div>
         </div>
-            <div style="padding: 5px;" id="from1">
+            <div style="padding: 5px;" id="from1" class="from12">
                 From:- 
                 <input type="text" placeholder="Bhopal" id="inp">
             </div>
-            <div style="padding: 5px;" id="from1">
+            <div style="padding: 5px;" id="from1" class="from13">
                 To:-
                 <input type="text" placeholder="Kolkata" id="inp">
             </div>
-            <div style="padding: 5px; " id="from2">
+            <div style="padding: 5px; " id="from2" class="from14">
                 Pick Date:-  
                 <input type="date" placeholder="">
             </div>
-            <div style="padding: 5px; " id="from2">
+            <div style="padding: 5px; " id="from2" class="from15">
                 Re-Date:- 
                 <input type="date" >
             </div>
@@ -353,14 +355,28 @@
         <p>Want to be notified about our services. Just sign up and we'll send you a notification by email.</p></div>
     </div>
  </section>
+<!-- --------------------------------------Gsap-link--------------------------- -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="gsap.js"></script>
 
+<!-- --------------------------------------Vanta.js-link--------------------------- -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
 <script src="vanta2.js"></script>
+
 <script src="crud.js"></script>
 <!-- <script src="crud.js"></script> -->
  <script src="nav2.js"></script>
 <script src="first.js"></script>
+
+<!-- --------------------------------------AOS-link--------------------------- -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
     
 </body>
 </html>

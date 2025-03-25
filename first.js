@@ -251,10 +251,10 @@ let nav=()=>{
     Swal.fire({
       icon: "error",
       title: "Oops...",
-      text: `Please Login/SignUp `,
-      footer: 'Something went wrong!'
+      text: `Please Login/SignUp`,
+      footer: `<a href="signup.html">SignUp</a> <br> <a href="login2.html">Login</a>`,
+      //footer: `<a href="login2.html">Login</a>`,
     });
-
   }
 }
 let logout=()=>{
